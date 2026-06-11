@@ -1,0 +1,353 @@
+{
+  "sys": {
+    "typo": {
+      "display": {
+        "2xl": {
+          "bold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.48}",
+              "fontWeight": "{global.font.weight.bold}",
+              "lineHeight": "58px",
+              "letterSpacing": "-2%"
+            },
+            "$type": "typography",
+            "$description": "→ size/48 · weight/bold · lineHeight tight(120%) · letterSpacing tight(-2%) | 대시보드 최대 수치, 히어로 텍스트"
+          }
+        },
+        "xl": {
+          "bold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.40}",
+              "fontWeight": "{global.font.weight.bold}",
+              "lineHeight": "48px",
+              "letterSpacing": "-2%"
+            },
+            "$type": "typography",
+            "$description": "→ size/40 · weight/bold · lineHeight tight(120%) · letterSpacing tight(-2%) | 대형 수치 표시"
+          }
+        },
+        "lg": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.36}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "43px",
+              "letterSpacing": "-2%"
+            },
+            "$type": "typography",
+            "$description": "→ size/36 · weight/semibold · lineHeight tight(120%) · letterSpacing tight(-2%) | 대형 헤드라인"
+          }
+        },
+        "md": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.32}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "38px",
+              "letterSpacing": "-2%"
+            },
+            "$type": "typography",
+            "$description": "→ size/32 · weight/semibold · lineHeight tight(120%) · letterSpacing tight(-2%) | 페이지 최상위 타이틀"
+          }
+        }
+      },
+      "heading": {
+        "xxl": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.28}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "34px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/28 · weight/semibold · lineHeight tight(120%) · letterSpacing normal(0%) | 주요 섹션 헤더"
+          }
+        },
+        "xl": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.24}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "29px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/24 · weight/semibold · lineHeight tight(120%) · letterSpacing normal(0%) | 페이지 제목"
+          }
+        },
+        "lg": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.20}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "24px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/20 · weight/semibold · lineHeight tight(120%) · letterSpacing normal(0%) | 모달 제목, 카드 헤더"
+          }
+        },
+        "md": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.18}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "25px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/18 · weight/semibold · lineHeight compact(140%) · letterSpacing normal(0%) | 서브 섹션 헤더"
+          }
+        },
+        "sm": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.16}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "22px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/16 · weight/semibold · lineHeight compact(140%) · letterSpacing normal(0%) | 패널 제목, 그룹 헤더"
+          }
+        },
+        "xs": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.14}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "20px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/14 · weight/semibold · lineHeight compact(140%) · letterSpacing normal(0%) | 인라인 제목. body/md/semibold(21px lh)와 1px 차이로 역할 분리"
+          }
+        }
+      },
+      "body": {
+        "lg": {
+          "regular": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.16}",
+              "fontWeight": "{global.font.weight.regular}",
+              "lineHeight": "24px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/16 · weight/regular · lineHeight normal(150%) · letterSpacing normal(0%) | 넓은 본문 텍스트"
+          },
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.16}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "24px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/16 · weight/semibold · lineHeight normal(150%) · letterSpacing normal(0%) | 본문 내 인라인 강조"
+          }
+        },
+        "md": {
+          "regular": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.14}",
+              "fontWeight": "{global.font.weight.regular}",
+              "lineHeight": "21px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/14 · weight/regular · lineHeight normal(150%) · letterSpacing normal(0%) | 기본값 — 전체 UI 기준 텍스트"
+          },
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.14}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "21px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/14 · weight/semibold · lineHeight normal(150%) · letterSpacing normal(0%) | 본문 내 인라인 강조. heading/xs(20px lh)와 1px 차이로 역할 분리"
+          }
+        },
+        "sm": {
+          "regular": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.13}",
+              "fontWeight": "{global.font.weight.regular}",
+              "lineHeight": "20px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/13 · weight/regular · lineHeight normal(150%) · letterSpacing normal(0%) | 보조 본문, 설명 텍스트"
+          }
+        }
+      },
+      "label": {
+        "lg": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.18}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "25px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/18 · weight/semibold · lineHeight compact(140%) · letterSpacing normal(0%) | 대형 버튼 레이블"
+          },
+          "regular": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.18}",
+              "fontWeight": "{global.font.weight.regular}",
+              "lineHeight": "25px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/18 · weight/regular · lineHeight compact(140%) · letterSpacing normal(0%) | 대형 버튼 보조 레이블"
+          }
+        },
+        "md": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.14}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "18px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/14 · weight/semibold · lineHeight compact(140%) · letterSpacing normal(0%) | 기본 버튼 레이블, 폼 레이블, 강조 뱃지"
+          },
+          "regular": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.14}",
+              "fontWeight": "{global.font.weight.regular}",
+              "lineHeight": "18px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/14 · weight/regular · lineHeight compact(140%) · letterSpacing normal(0%) | 비활성·보조 상태 레이블"
+          }
+        },
+        "sm": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.13}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "17px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/13 · weight/semibold · lineHeight compact(130%) · letterSpacing normal(0%) | 소형 버튼 레이블, 뱃지, 태그"
+          },
+          "regular": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.13}",
+              "fontWeight": "{global.font.weight.regular}",
+              "lineHeight": "17px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/13 · weight/regular · lineHeight compact(130%) · letterSpacing normal(0%) | 소형 보조 레이블, 상태 칩"
+          }
+        },
+        "xs": {
+          "semibold": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.12}",
+              "fontWeight": "{global.font.weight.semibold}",
+              "lineHeight": "17px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/12 · weight/semibold · lineHeight compact(140%) · letterSpacing normal(0%) | 소형 버튼 레이블 (sm과 동일 스타일, 버튼 2사이즈 대응)"
+          },
+          "medium": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.12}",
+              "fontWeight": "{global.font.weight.medium}",
+              "lineHeight": "17px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/12 · weight/medium · lineHeight compact(140%) · letterSpacing normal(0%) | 소형 버튼 보조 레이블 (sm과 동일 스타일, 버튼 2사이즈 대응)"
+          }
+        }
+      },
+      "caption": {
+        "md": {
+          "regular": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.12}",
+              "fontWeight": "{global.font.weight.regular}",
+              "lineHeight": "18px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/12 · weight/regular · lineHeight normal(150%) · letterSpacing normal(0%) | 일반 캡션, 메타 정보"
+          },
+          "medium": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.12}",
+              "fontWeight": "{global.font.weight.medium}",
+              "lineHeight": "18px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/12 · weight/medium · lineHeight normal(150%) · letterSpacing normal(0%) | 강조 캡션, 도움말 텍스트"
+          }
+        },
+        "sm": {
+          "medium": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.11}",
+              "fontWeight": "{global.font.weight.medium}",
+              "lineHeight": "17px",
+              "letterSpacing": "0%"
+            },
+            "$type": "typography",
+            "$description": "→ size/11 · weight/medium · lineHeight normal(150%) · letterSpacing normal(0%) | 타임스탬프, 부가 메타 정보"
+          }
+        },
+        "xs": {
+          "medium": {
+            "$value": {
+              "fontFamily": "{global.font.family.sans}",
+              "fontSize": "{global.font.size.10}",
+              "fontWeight": "{global.font.weight.medium}",
+              "lineHeight": "15px",
+              "letterSpacing": "2%"
+            },
+            "$type": "typography",
+            "$description": "→ size/10 · weight/medium · lineHeight normal(150%) · letterSpacing wide(+2%) | 최소 캡션. 10px 한글 가독성 보정으로 자간 wide 적용"
+          }
+        }
+      }
+    }
+  }
+}

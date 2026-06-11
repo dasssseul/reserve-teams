@@ -1,0 +1,62 @@
+{
+  "service": {
+"messenger": {
+      "typo": {
+        "body": {
+          "md": {
+            "regular": {
+              "$value": {
+                "fontFamily": "{global.font.family.sans}",
+                "fontSize": "{global.font.size.16}",
+                "fontWeight": "{global.font.weight.regular}",
+                "lineHeight": "24px",
+                "letterSpacing": "0%"
+              },
+              "$type": "typography",
+              "$description": "→ size/16 (sys: 14px +2px) · lineHeight normal(150%) | 터치 기반 본문 기본값. 데스크탑 sys/typo/body/md/regular 모바일 오버라이드"
+            },
+            "semibold": {
+              "$value": {
+                "fontFamily": "{global.font.family.sans}",
+                "fontSize": "{global.font.size.16}",
+                "fontWeight": "{global.font.weight.semibold}",
+                "lineHeight": "24px",
+                "letterSpacing": "0%"
+              },
+              "$type": "typography",
+              "$description": "→ size/16 (sys: 14px +2px) · lineHeight normal(150%) | 터치 기반 본문 강조. 데스크탑 sys/typo/body/md/semibold 모바일 오버라이드"
+            }
+          },
+          "sm": {
+            "regular": {
+              "$value": {
+                "fontFamily": "{global.font.family.sans}",
+                "fontSize": "{global.font.size.14}",
+                "fontWeight": "{global.font.weight.regular}",
+                "lineHeight": "21px",
+                "letterSpacing": "0%"
+              },
+              "$type": "typography",
+              "$description": "→ size/14 (sys: 13px +1px) · lineHeight normal(150%) | 터치 기반 보조 본문. 데스크탑 sys/typo/body/sm/regular 모바일 오버라이드"
+            }
+          }
+        },
+        "caption": {
+          "md": {
+            "regular": {
+              "$value": {
+                "fontFamily": "{global.font.family.sans}",
+                "fontSize": "{global.font.size.13}",
+                "fontWeight": "{global.font.weight.regular}",
+                "lineHeight": "20px",
+                "letterSpacing": "0%"
+              },
+              "$type": "typography",
+              "$description": "→ size/13 (sys: 12px +1px) · lineHeight normal(150%) | 터치 기반 캡션. 데스크탑 sys/typo/caption/md/regular 모바일 오버라이드"
+            }
+          }
+        }
+      }
+    }
+  }
+}

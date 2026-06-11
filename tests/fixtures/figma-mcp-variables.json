@@ -1,0 +1,2860 @@
+{
+  "_version": 1,
+  "_generatedAt": "2026-06-10T00:00:00.000Z",
+  "_fileKey": "7FyrA0Olbv6B7SicSvVTZN",
+  "_source": "figma-mcp",
+  "data": {
+    "btn-brand-solid-xs": {
+      "figmaId": "205:1217",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-solid-sm": {
+      "figmaId": "205:1250",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-solid-md": {
+      "figmaId": "205:1283",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-solid-lg": {
+      "figmaId": "205:1316",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-solid-xs-disabled": {
+      "figmaId": "205:1239",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "office/bg/brand/strong/disabled": "#b0ceec",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-solid-sm-disabled": {
+      "figmaId": "205:1272",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "office/bg/brand/strong/disabled": "#b0ceec",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-solid-md-disabled": {
+      "figmaId": "205:1305",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "office/bg/brand/strong/disabled": "#b0ceec",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-solid-lg-disabled": {
+      "figmaId": "205:1338",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "office/bg/brand/strong/disabled": "#b0ceec",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-outline-xs": {
+      "figmaId": "205:1349",
+      "variables": {
+        "office/text/brand/normal/default": "#1c7fd3",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-outline-sm": {
+      "figmaId": "205:1382",
+      "variables": {
+        "office/text/brand/normal/default": "#1c7fd3",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-outline-md": {
+      "figmaId": "205:1415",
+      "variables": {
+        "office/text/brand/normal/default": "#1c7fd3",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-outline-lg": {
+      "figmaId": "205:1448",
+      "variables": {
+        "office/text/brand/normal/default": "#1c7fd3",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-outline-xs-disabled": {
+      "figmaId": "205:1371",
+      "variables": {
+        "office/text/brand/normal/disabled": "#badbf8",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-outline-sm-disabled": {
+      "figmaId": "205:1404",
+      "variables": {
+        "office/text/brand/normal/disabled": "#badbf8",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-outline-md-disabled": {
+      "figmaId": "205:1437",
+      "variables": {
+        "office/text/brand/normal/disabled": "#badbf8",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-outline-lg-disabled": {
+      "figmaId": "205:1470",
+      "variables": {
+        "office/text/brand/normal/disabled": "#badbf8",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-text-xs": {
+      "figmaId": "205:1481",
+      "variables": {
+        "office/text/brand/normal/default": "#1c7fd3",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/2xs": "6",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-text-sm": {
+      "figmaId": "205:1514",
+      "variables": {
+        "office/text/brand/normal/default": "#1c7fd3",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/xs": "8",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-text-md": {
+      "figmaId": "205:1547",
+      "variables": {
+        "office/text/brand/normal/default": "#1c7fd3",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-text-lg": {
+      "figmaId": "205:1580",
+      "variables": {
+        "office/text/brand/normal/default": "#1c7fd3",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/md": "12",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-text-xs-disabled": {
+      "figmaId": "205:1503",
+      "variables": {
+        "office/text/brand/normal/disabled": "#badbf8",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/2xs": "6",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-text-sm-disabled": {
+      "figmaId": "205:1536",
+      "variables": {
+        "office/text/brand/normal/disabled": "#badbf8",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/xs": "8",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-text-md-disabled": {
+      "figmaId": "205:1569",
+      "variables": {
+        "office/text/brand/normal/disabled": "#badbf8",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-brand-text-lg-disabled": {
+      "figmaId": "205:1602",
+      "variables": {
+        "office/text/brand/normal/disabled": "#badbf8",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/md": "12",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-solid-xs": {
+      "figmaId": "205:1613",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-solid-sm": {
+      "figmaId": "205:1646",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-solid-md": {
+      "figmaId": "205:1679",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-solid-lg": {
+      "figmaId": "205:1712",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-solid-xs-disabled": {
+      "figmaId": "205:1635",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-solid-sm-disabled": {
+      "figmaId": "205:1668",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-solid-md-disabled": {
+      "figmaId": "205:1701",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-solid-lg-disabled": {
+      "figmaId": "205:1734",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-outline-xs": {
+      "figmaId": "205:1745",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-outline-sm": {
+      "figmaId": "205:1778",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-outline-md": {
+      "figmaId": "205:1811",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-outline-lg": {
+      "figmaId": "205:1844",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-outline-xs-disabled": {
+      "figmaId": "205:1767",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-outline-sm-disabled": {
+      "figmaId": "205:1800",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-outline-md-disabled": {
+      "figmaId": "205:1833",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-outline-lg-disabled": {
+      "figmaId": "205:1866",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-ghost-xs": {
+      "figmaId": "205:1877",
+      "variables": {
+        "text/neutral/subtle/default": "#676767",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/2xs": "6",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-ghost-sm": {
+      "figmaId": "205:1910",
+      "variables": {
+        "text/neutral/subtle/default": "#676767",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/xs": "8",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-ghost-md": {
+      "figmaId": "205:1943",
+      "variables": {
+        "text/neutral/subtle/default": "#676767",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-ghost-lg": {
+      "figmaId": "205:1976",
+      "variables": {
+        "text/neutral/subtle/default": "#676767",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/md": "12",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-ghost-xs-disabled": {
+      "figmaId": "205:1899",
+      "variables": {
+        "text/neutral/subtle/disabled": "#c4c4c4",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/2xs": "6",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-ghost-sm-disabled": {
+      "figmaId": "205:1932",
+      "variables": {
+        "text/neutral/subtle/disabled": "#c4c4c4",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/xs": "8",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-ghost-md-disabled": {
+      "figmaId": "205:1965",
+      "variables": {
+        "text/neutral/subtle/disabled": "#c4c4c4",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-neutral-ghost-lg-disabled": {
+      "figmaId": "205:1998",
+      "variables": {
+        "text/neutral/subtle/disabled": "#c4c4c4",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/md": "12",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-destructive-solid-xs": {
+      "figmaId": "205:2009",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/neutral/strong/default": "#585858",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-destructive-solid-sm": {
+      "figmaId": "205:2042",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/neutral/strong/default": "#585858",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-destructive-solid-md": {
+      "figmaId": "205:2075",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "bg/neutral/strong/default": "#585858",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-destructive-solid-lg": {
+      "figmaId": "205:2108",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "bg/neutral/strong/default": "#585858",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-destructive-solid-xs-disabled": {
+      "figmaId": "205:2031",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/neutral/strong/disabled": "#c4c4c4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-destructive-solid-sm-disabled": {
+      "figmaId": "205:2064",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/neutral/strong/disabled": "#c4c4c4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-destructive-solid-md-disabled": {
+      "figmaId": "205:2097",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "bg/neutral/strong/disabled": "#c4c4c4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-destructive-solid-lg-disabled": {
+      "figmaId": "205:2130",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "bg/neutral/strong/disabled": "#c4c4c4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-critical-solid-xs": {
+      "figmaId": "205:2141",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/alert/strong/default": "#d84a49",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-critical-solid-sm": {
+      "figmaId": "205:2174",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/alert/strong/default": "#d84a49",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-critical-solid-md": {
+      "figmaId": "205:2207",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "bg/alert/strong/default": "#d84a49",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-critical-solid-lg": {
+      "figmaId": "205:2240",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "bg/alert/strong/default": "#d84a49",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-critical-solid-xs-disabled": {
+      "figmaId": "205:2163",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/12": "12",
+        "font/family/sans": "Pretendard",
+        "font/weight/medium": "500",
+        "sys/typo/label/xs/medium": "Font(family: \"font/family/sans\", style: Medium, size: font/size/12, weight: font/weight/medium, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/alert/strong/disabled": "#f3c7c7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-critical-solid-sm-disabled": {
+      "figmaId": "205:2196",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/13": "13",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 17, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "bg/alert/strong/disabled": "#f3c7c7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-critical-solid-md-disabled": {
+      "figmaId": "205:2229",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "bg/alert/strong/disabled": "#f3c7c7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-critical-solid-lg-disabled": {
+      "figmaId": "205:2262",
+      "variables": {
+        "text/neutral/inverse/default": "#ffffff",
+        "font/letterSpacing/normal": "0",
+        "font/size/18": "18",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/lg/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/18, weight: font/weight/regular, lineHeight: 25, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/6xl": "56",
+        "radius/sm": "4",
+        "bg/alert/strong/disabled": "#f3c7c7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-solid-xs": {
+      "figmaId": "232:1210",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-solid-sm": {
+      "figmaId": "232:1216",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-solid-md": {
+      "figmaId": "232:1222",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-solid-xs-disabled": {
+      "figmaId": "232:1214",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "office/bg/brand/strong/disabled": "#b0ceec",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-solid-sm-disabled": {
+      "figmaId": "232:1220",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "office/bg/brand/strong/disabled": "#b0ceec",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-solid-md-disabled": {
+      "figmaId": "232:1226",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "office/bg/brand/strong/disabled": "#b0ceec",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-outline-xs": {
+      "figmaId": "232:1228",
+      "variables": {
+        "office/icon/brand/normal/default": "#1c7fd3",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-outline-sm": {
+      "figmaId": "232:1234",
+      "variables": {
+        "office/icon/brand/normal/default": "#1c7fd3",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-outline-md": {
+      "figmaId": "232:1240",
+      "variables": {
+        "office/icon/brand/normal/default": "#1c7fd3",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-outline-xs-disabled": {
+      "figmaId": "232:1232",
+      "variables": {
+        "office/icon/brand/normal/disabled": "#badbf8",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-outline-sm-disabled": {
+      "figmaId": "232:1238",
+      "variables": {
+        "office/icon/brand/normal/disabled": "#badbf8",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-outline-md-disabled": {
+      "figmaId": "232:1244",
+      "variables": {
+        "office/icon/brand/normal/disabled": "#badbf8",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-text-xs": {
+      "figmaId": "232:1246",
+      "variables": {
+        "office/icon/brand/normal/default": "#1c7fd3",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-text-sm": {
+      "figmaId": "232:1252",
+      "variables": {
+        "office/icon/brand/normal/default": "#1c7fd3",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-text-md": {
+      "figmaId": "232:1258",
+      "variables": {
+        "office/icon/brand/normal/default": "#1c7fd3",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-text-xs-disabled": {
+      "figmaId": "232:1250",
+      "variables": {
+        "office/icon/brand/normal/disabled": "#badbf8",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-text-sm-disabled": {
+      "figmaId": "232:1256",
+      "variables": {
+        "office/icon/brand/normal/disabled": "#badbf8",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-brand-text-md-disabled": {
+      "figmaId": "232:1262",
+      "variables": {
+        "office/icon/brand/normal/disabled": "#badbf8",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-solid-xs": {
+      "figmaId": "232:1264",
+      "variables": {
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-solid-sm": {
+      "figmaId": "232:1270",
+      "variables": {
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-solid-md": {
+      "figmaId": "232:1276",
+      "variables": {
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-solid-xs-disabled": {
+      "figmaId": "232:1268",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "radius/sm": "4",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-solid-sm-disabled": {
+      "figmaId": "232:1274",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "radius/sm": "4",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-solid-md-disabled": {
+      "figmaId": "232:1280",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "radius/sm": "4",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-outline-xs": {
+      "figmaId": "232:1282",
+      "variables": {
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-outline-sm": {
+      "figmaId": "232:1288",
+      "variables": {
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-outline-md": {
+      "figmaId": "232:1294",
+      "variables": {
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-outline-xs-disabled": {
+      "figmaId": "232:1286",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-outline-sm-disabled": {
+      "figmaId": "232:1292",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-outline-md-disabled": {
+      "figmaId": "232:1298",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "radius/sm": "4",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-ghost-xs": {
+      "figmaId": "232:1300",
+      "variables": {
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-ghost-sm": {
+      "figmaId": "232:1306",
+      "variables": {
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-ghost-md": {
+      "figmaId": "232:1312",
+      "variables": {
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-ghost-xs-disabled": {
+      "figmaId": "232:1304",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-ghost-sm-disabled": {
+      "figmaId": "232:1310",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-neutral-ghost-md-disabled": {
+      "figmaId": "232:1316",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-destructive-solid-xs": {
+      "figmaId": "232:1318",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/neutral/strong/default": "#585858",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-destructive-solid-sm": {
+      "figmaId": "232:1324",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/neutral/strong/default": "#585858",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-destructive-solid-md": {
+      "figmaId": "232:1330",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/neutral/strong/default": "#585858",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-destructive-solid-xs-disabled": {
+      "figmaId": "232:1322",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/neutral/strong/disabled": "#c4c4c4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-destructive-solid-sm-disabled": {
+      "figmaId": "232:1328",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/neutral/strong/disabled": "#c4c4c4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-destructive-solid-md-disabled": {
+      "figmaId": "232:1334",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/neutral/strong/disabled": "#c4c4c4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-critical-solid-xs": {
+      "figmaId": "232:1336",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/alert/strong/default": "#d84a49",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-critical-solid-sm": {
+      "figmaId": "232:1342",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/alert/strong/default": "#d84a49",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-critical-solid-md": {
+      "figmaId": "232:1348",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/alert/strong/default": "#d84a49",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-critical-solid-xs-disabled": {
+      "figmaId": "232:1340",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/alert/strong/disabled": "#f3c7c7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-critical-solid-sm-disabled": {
+      "figmaId": "232:1346",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/alert/strong/disabled": "#f3c7c7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "btn-icon-critical-solid-md-disabled": {
+      "figmaId": "232:1352",
+      "variables": {
+        "icon/neutral/inverse/default": "#ffffff",
+        "radius/sm": "4",
+        "bg/alert/strong/disabled": "#f3c7c7",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "input-sm-enabled-none": {
+      "figmaId": "295:656",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/subtle/default": "#676767",
+        "size/16": "16",
+        "size/icon/md": "16",
+        "text/neutral/muted/default": "#909090",
+        "font/size/13": "13",
+        "sys/typo/body/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 20, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xs": "8",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/subtle/default": "#676767",
+        "font/size/12": "12",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)"
+      }
+    },
+    "input-sm-disabled-none": {
+      "figmaId": "216:4768",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/normal/disabled": "#aeaeae",
+        "size/16": "16",
+        "size/icon/md": "16",
+        "text/neutral/muted/default": "#909090",
+        "font/size/13": "13",
+        "sys/typo/body/sm/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/13, weight: font/weight/regular, lineHeight: 20, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xs": "8",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/subtle/disabled": "#c4c4c4",
+        "font/size/12": "12",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)"
+      }
+    },
+    "input-md-enabled-none": {
+      "figmaId": "263:353",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/subtle/default": "#676767",
+        "size/16": "16",
+        "size/icon/md": "16",
+        "text/neutral/muted/default": "#909090",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xs": "8",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/subtle/default": "#676767",
+        "font/size/12": "12",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)"
+      }
+    },
+    "input-md-enabled-error": {
+      "figmaId": "263:374",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/subtle/default": "#676767",
+        "size/16": "16",
+        "size/icon/md": "16",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xs": "8",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/alert/normal/default": "#d84a49",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/alert/normal/default": "#c54342",
+        "font/size/12": "12",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)"
+      }
+    },
+    "input-md-enabled-success": {
+      "figmaId": "278:3186",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/subtle/default": "#676767",
+        "size/16": "16",
+        "size/icon/md": "16",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xs": "8",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/positive/normal/default": "#45a243",
+        "font/size/12": "12",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)"
+      }
+    },
+    "input-md-disabled-none": {
+      "figmaId": "263:381",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/normal/disabled": "#aeaeae",
+        "size/16": "16",
+        "size/icon/md": "16",
+        "text/neutral/muted/default": "#909090",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xs": "8",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/subtle/disabled": "#c4c4c4",
+        "font/size/12": "12",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)"
+      }
+    },
+    "input-md-readonly-none": {
+      "figmaId": "263:388",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/subtle/default": "#676767",
+        "size/16": "16",
+        "size/icon/md": "16",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/normal/default": "#333333",
+        "spacing/xs": "8",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/subtle/default": "#676767",
+        "font/size/12": "12",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)"
+      }
+    },
+    "input-lg-enabled-none": {
+      "figmaId": "263:490",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/normal/default": "#333333",
+        "size/16": "16",
+        "size/icon/md": "16",
+        "text/neutral/muted/default": "#909090",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/subtle/default": "#676767",
+        "spacing/sm": "10",
+        "spacing/md": "12",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/subtle/default": "#676767",
+        "font/size/12": "12",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)"
+      }
+    },
+    "input-lg-disabled-none": {
+      "figmaId": "263:518",
+      "variables": {
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/normal/disabled": "#aeaeae",
+        "size/16": "16",
+        "size/icon/md": "16",
+        "text/neutral/muted/default": "#909090",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/md": "12",
+        "radius/sm": "4",
+        "border/width/thin": "1",
+        "bg/neutral/subtle/disabled": "#f7f7f7",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/subtle/disabled": "#c4c4c4",
+        "font/size/12": "12",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)"
+      }
+    },
+    "lnb-nav-l1-rest": {
+      "figmaId": "338:1127",
+      "variables": {
+        "icon/neutral/faint/default": "#aeaeae",
+        "icon/neutral/muted/default": "#909090",
+        "spacing/3xs": "4",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "spacing/xs": "8",
+        "spacing/none": "0",
+        "radius/none": "0"
+      }
+    },
+    "lnb-nav-l2-rest": {
+      "figmaId": "346:427",
+      "variables": {
+        "icon/neutral/faint/default": "#aeaeae",
+        "icon/neutral/muted/default": "#909090",
+        "spacing/3xs": "4",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "spacing/xs": "8",
+        "spacing/3xl": "32",
+        "spacing/none": "0",
+        "radius/none": "0"
+      }
+    },
+    "lnb-nav-l3-rest": {
+      "figmaId": "346:571",
+      "variables": {
+        "icon/neutral/faint/default": "#aeaeae",
+        "icon/neutral/muted/default": "#909090",
+        "spacing/3xs": "4",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "spacing/xs": "8",
+        "spacing/6xl": "56",
+        "spacing/none": "0",
+        "radius/none": "0"
+      }
+    },
+    "lnb-nav-l1-selected": {
+      "figmaId": "338:1914",
+      "variables": {
+        "icon/neutral/faint/default": "#aeaeae",
+        "office/icon/brand/strong/default": "#0062c1",
+        "spacing/3xs": "4",
+        "office/text/brand/strong/default": "#0062c1",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "spacing/xs": "8",
+        "spacing/none": "0",
+        "radius/none": "0",
+        "office/bg/brand/normal/default": "#d8e9fb"
+      }
+    },
+    "lnb-nav-l2-selected": {
+      "figmaId": "346:463",
+      "variables": {
+        "icon/neutral/faint/default": "#aeaeae",
+        "office/icon/brand/strong/default": "#0062c1",
+        "spacing/3xs": "4",
+        "office/text/brand/strong/default": "#0062c1",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "spacing/xs": "8",
+        "spacing/3xl": "32",
+        "spacing/none": "0",
+        "radius/none": "0",
+        "office/bg/brand/normal/default": "#d8e9fb"
+      }
+    },
+    "lnb-nav-l3-selected": {
+      "figmaId": "346:607",
+      "variables": {
+        "icon/neutral/faint/default": "#aeaeae",
+        "office/icon/brand/strong/default": "#0062c1",
+        "spacing/3xs": "4",
+        "office/text/brand/strong/default": "#0062c1",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "spacing/xs": "8",
+        "spacing/6xl": "56",
+        "spacing/none": "0",
+        "radius/none": "0",
+        "office/bg/brand/normal/default": "#d8e9fb"
+      }
+    },
+    "lnb-nav-l1-disabled": {
+      "figmaId": "338:1956",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "spacing/3xs": "4",
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "spacing/xs": "8",
+        "spacing/none": "0",
+        "radius/none": "0"
+      }
+    },
+    "lnb-nav-l2-disabled": {
+      "figmaId": "346:445",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "spacing/3xs": "4",
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "spacing/xs": "8",
+        "spacing/3xl": "32",
+        "spacing/none": "0",
+        "radius/none": "0"
+      }
+    },
+    "lnb-nav-l3-disabled": {
+      "figmaId": "346:589",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "spacing/3xs": "4",
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "icon/neutral/subtle/default": "#676767",
+        "radius/sm": "4",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "spacing/xs": "8",
+        "spacing/6xl": "56",
+        "spacing/none": "0",
+        "radius/none": "0"
+      }
+    },
+    "lnb-section-l1-expanded": {
+      "figmaId": "338:2490",
+      "variables": {
+        "icon/neutral/muted/default": "#909090",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xs": "8",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "radius/none": "0",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "lnb-section-l2-expanded": {
+      "figmaId": "349:194",
+      "variables": {
+        "icon/neutral/muted/default": "#909090",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xs": "8",
+        "spacing/3xl": "32",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "radius/none": "0",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "lnb-section-l1-collapsed": {
+      "figmaId": "338:2490",
+      "variables": {
+        "icon/neutral/muted/default": "#909090",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xs": "8",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "radius/none": "0",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "lnb-section-l2-collapsed": {
+      "figmaId": "349:194",
+      "variables": {
+        "icon/neutral/muted/default": "#909090",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xs": "8",
+        "spacing/3xl": "32",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "radius/none": "0",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "lnb-section-l1-disabled": {
+      "figmaId": "338:2508",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xs": "8",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "radius/none": "0",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "lnb-section-l2-disabled": {
+      "figmaId": "349:212",
+      "variables": {
+        "icon/neutral/subtle/disabled": "#c4c4c4",
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xs": "8",
+        "spacing/3xl": "32",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "radius/none": "0",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "lnb-action-rest": {
+      "figmaId": "363:720",
+      "variables": {
+        "office/icon/brand/normal/default": "#1c7fd3",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xs": "8",
+        "spacing/none": "0",
+        "radius/none": "0",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "lnb-action-rest-disabled": {
+      "figmaId": "363:727",
+      "variables": {
+        "office/icon/brand/normal/disabled": "#badbf8",
+        "text/neutral/normal/disabled": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xs": "8",
+        "spacing/none": "0",
+        "radius/none": "0",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)"
+      }
+    },
+    "lnb-divider": {
+      "figmaId": "361:1950",
+      "variables": {
+        "border/width/thin": "1",
+        "office/stroke/brand/faint/default": "#d6deeb",
+        "spacing/none": "0",
+        "spacing/xs": "8"
+      }
+    },
+    "modal-shell-xs-sup-noclose": {
+      "figmaId": "312:2195",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/16": "16",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/heading/sm/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/16, weight: font/weight/semibold, lineHeight: 22, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xl": "24",
+        "font/size/14": "14",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xl": "20",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/inverse/default": "#ffffff",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "spacing/lg": "16",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/modal": "Effect(type: DROP_SHADOW, color: #0000001F, offset: (0, 8), radius: 24, spread: 0)"
+      }
+    },
+    "modal-shell-sm-sup-noclose": {
+      "figmaId": "309:1030",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/16": "16",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/heading/sm/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/16, weight: font/weight/semibold, lineHeight: 22, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xl": "24",
+        "font/size/14": "14",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xl": "20",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/inverse/default": "#ffffff",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "spacing/lg": "16",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/modal": "Effect(type: DROP_SHADOW, color: #0000001F, offset: (0, 8), radius: 24, spread: 0)"
+      }
+    },
+    "modal-shell-md-sup-noclose": {
+      "figmaId": "312:995",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/16": "16",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/heading/sm/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/16, weight: font/weight/semibold, lineHeight: 22, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xl": "24",
+        "font/size/14": "14",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xl": "20",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/inverse/default": "#ffffff",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "spacing/lg": "16",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/modal": "Effect(type: DROP_SHADOW, color: #0000001F, offset: (0, 8), radius: 24, spread: 0)"
+      }
+    },
+    "modal-shell-lg-sup-noclose": {
+      "figmaId": "312:1009",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/16": "16",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/heading/sm/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/16, weight: font/weight/semibold, lineHeight: 22, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xl": "24",
+        "font/size/14": "14",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xl": "20",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/inverse/default": "#ffffff",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "spacing/lg": "16",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/modal": "Effect(type: DROP_SHADOW, color: #0000001F, offset: (0, 8), radius: 24, spread: 0)"
+      }
+    },
+    "modal-shell-xl-sup-noclose": {
+      "figmaId": "312:1023",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/16": "16",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/heading/sm/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/16, weight: font/weight/semibold, lineHeight: 22, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xl": "24",
+        "font/size/14": "14",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xl": "20",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/inverse/default": "#ffffff",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "spacing/lg": "16",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/modal": "Effect(type: DROP_SHADOW, color: #0000001F, offset: (0, 8), radius: 24, spread: 0)"
+      }
+    },
+    "modal-shell-2xl-sup-noclose": {
+      "figmaId": "312:1037",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/16": "16",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/heading/sm/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/16, weight: font/weight/semibold, lineHeight: 22, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xl": "24",
+        "font/size/14": "14",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/md": "12",
+        "spacing/xl": "20",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/inverse/default": "#ffffff",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "spacing/lg": "16",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "sys/elevation/modal": "Effect(type: DROP_SHADOW, color: #0000001F, offset: (0, 8), radius: 24, spread: 0)"
+      }
+    },
+    "modal-footer-spacebetween-lc-lol-sb": {
+      "figmaId": "309:1872",
+      "variables": {
+        "radius/xs": "2",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "icon/neutral/inverse/default": "#ffffff",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "icon/neutral/subtle/default": "#676767",
+        "text/neutral/subtle/default": "#676767",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "spacing/xl": "20",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "text/neutral/inverse/default": "#ffffff",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "spacing/lg": "16",
+        "spacing/2xl": "24"
+      }
+    },
+    "modal-footer-centered-sb-sb": {
+      "figmaId": "311:959",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/label/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xl": "20",
+        "radius/sm": "4",
+        "bg/neutral/subtle/default": "#eaeaea",
+        "sys/elevation/none": "Effect(type: DROP_SHADOW, color: #00000000, offset: (0, 0), radius: 0, spread: 0)",
+        "text/neutral/inverse/default": "#ffffff",
+        "office/bg/brand/strong/default": "#1c7fd3",
+        "spacing/lg": "16",
+        "spacing/2xl": "24"
+      }
+    },
+    "tt-time-axis-hour": {
+      "figmaId": "600:2396",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-time-axis-halfhour": {
+      "figmaId": "600:2398",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-date-axis-weekday": {
+      "figmaId": "644:60",
+      "variables": {
+        "text/calendar/weekday": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-date-axis-holiday": {
+      "figmaId": "644:66",
+      "variables": {
+        "text/calendar/holiday": "#d84a49",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-date-axis-saturday": {
+      "figmaId": "644:64",
+      "variables": {
+        "text/calendar/saturday": "#0062c1",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-timeslot-hour-enabled": {
+      "figmaId": "600:2410",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-timeslot-hour-enabled-selected": {
+      "figmaId": "600:4244",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "office/bg/brand/subtle/default": "#e6eff9",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-timeslot-hour-readonly": {
+      "figmaId": "600:4240",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/disabled": "#eaeaea",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-timeslot-hour-disabled": {
+      "figmaId": "600:4234",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/strong/disabled": "#c4c4c4",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-timeslot-halfhour-enabled": {
+      "figmaId": "600:2412",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-timeslot-halfhour-enabled-selected": {
+      "figmaId": "600:4245",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "office/bg/brand/subtle/default": "#e6eff9",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-timeslot-halfhour-readonly": {
+      "figmaId": "600:4239",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/disabled": "#eaeaea",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-timeslot-halfhour-disabled": {
+      "figmaId": "600:4235",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/strong/disabled": "#c4c4c4",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-dateslot-enabled": {
+      "figmaId": "654:1654",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-dateslot-enabled-selected": {
+      "figmaId": "654:1655",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "office/bg/brand/subtle/default": "#e6eff9",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-dateslot-readonly": {
+      "figmaId": "654:1657",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/disabled": "#eaeaea",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-dateslot-disabled": {
+      "figmaId": "654:1659",
+      "variables": {
+        "spacing/sm": "10",
+        "spacing/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/strong/disabled": "#c4c4c4",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-resource-header": {
+      "figmaId": "618:3897",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/label/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "icon/neutral/muted/default": "#909090",
+        "size/icon/md": "16",
+        "spacing/3xs": "4",
+        "spacing/lg": "16",
+        "spacing/md": "12",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-resource-photo": {
+      "figmaId": "632:212",
+      "variables": {
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-axis-corner": {
+      "figmaId": "654:1396",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/label/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/3xs": "4",
+        "spacing/lg": "16",
+        "spacing/md": "12",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-selection-box": {
+      "figmaId": "650:67",
+      "variables": {
+        "radius/sm": "4",
+        "border/width/medium": "2",
+        "opacity/dragging": "50",
+        "office/bg/brand/normal/default": "#d8e9fb",
+        "office/stroke/brand/normal/default": "#1c7fd3"
+      }
+    },
+    "tt-now-indicator": {
+      "figmaId": "682:2",
+      "variables": {
+        "stroke/calendar/now-indicator": "#d84a49"
+      }
+    },
+    "tt-event-mine-confirmed": {
+      "figmaId": "770:933",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "font/size/12": "12",
+        "font/weight/regular": "400",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/5xs": "1",
+        "spacing/md": "12",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thick": "3",
+        "office/bg/brand/normal/default": "#d8e9fb",
+        "office/stroke/brand/normal/default": "#1c7fd3"
+      }
+    },
+    "tt-event-mine-tentative": {
+      "figmaId": "763:16",
+      "variables": {
+        "text/neutral/subtle/default": "#676767",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "font/size/12": "12",
+        "font/weight/regular": "400",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/xs": "8",
+        "spacing/md": "12",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thick": "3",
+        "office/bg/brand/subtle/default": "#e6eff9",
+        "office/stroke/brand/subtle/default": "#98caf4"
+      }
+    },
+    "tt-event-mine-cancelled": {
+      "figmaId": "763:27",
+      "variables": {
+        "text/neutral/faint/default": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "font/size/12": "12",
+        "font/weight/regular": "400",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/5xs": "1",
+        "spacing/md": "12",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thick": "3",
+        "bg/neutral/muted/default": "#f7f7f7",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tt-event-others-confirmed": {
+      "figmaId": "763:37",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "font/size/12": "12",
+        "font/weight/regular": "400",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/5xs": "1",
+        "spacing/md": "12",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thick": "3",
+        "bg/neutral/muted/default": "#f7f7f7",
+        "stroke/neutral/strong/default": "#676767"
+      }
+    },
+    "tt-event-others-tentative": {
+      "figmaId": "763:47",
+      "variables": {
+        "text/neutral/subtle/default": "#676767",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "font/size/12": "12",
+        "font/weight/regular": "400",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/5xs": "1",
+        "spacing/md": "12",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thick": "3",
+        "bg/neutral/muted/default": "#f7f7f7",
+        "stroke/neutral/normal/default": "#c4c4c4"
+      }
+    },
+    "tt-event-others-cancelled": {
+      "figmaId": "763:57",
+      "variables": {
+        "text/neutral/faint/default": "#aeaeae",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/body/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "font/size/12": "12",
+        "font/weight/regular": "400",
+        "sys/typo/caption/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/12, weight: font/weight/regular, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/2xs": "6",
+        "spacing/5xs": "1",
+        "spacing/md": "12",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "radius/sm": "4",
+        "border/width/thick": "3",
+        "bg/neutral/muted/default": "#f7f7f7",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tbl-cell-header-md-center": {
+      "figmaId": "488:3108",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/label/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "spacing/2xs": "6",
+        "border/width/thin": "1",
+        "office/bg/brand/subtle/default": "#e6eff9",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tbl-cell-header-md-left": {
+      "figmaId": "491:537",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/label/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "spacing/2xs": "6",
+        "border/width/thin": "1",
+        "office/bg/brand/subtle/default": "#e6eff9",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tbl-cell-data-md-left": {
+      "figmaId": "488:3570",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/none": "0",
+        "spacing/2xs": "6",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tbl-cell-data-md-center": {
+      "figmaId": "488:3734",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/none": "0",
+        "spacing/2xs": "6",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tbl-cell-data-md-right": {
+      "figmaId": "488:3758",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/none": "0",
+        "spacing/2xs": "6",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tbl-header-row": {
+      "figmaId": "528:1511",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/label/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "spacing/2xs": "6",
+        "border/width/thin": "1",
+        "office/bg/brand/subtle/default": "#e6eff9",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    },
+    "tbl-row-enabled": {
+      "figmaId": "550:2532",
+      "variables": {
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/none": "0",
+        "spacing/2xs": "6",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "border/width/none": "0",
+        "border/width/thin": "1",
+        "bg/neutral/faint/default": "#ffffff"
+      }
+    },
+    "tbl-table-loaded": {
+      "figmaId": "558:7283",
+      "variables": {
+        "border/width/thin": "1",
+        "stroke/neutral/normal/default": "#c4c4c4",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/label/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "spacing/2xs": "6",
+        "office/bg/brand/subtle/default": "#e6eff9",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "border/width/none": "0",
+        "bg/neutral/faint/default": "#ffffff"
+      }
+    },
+    "tbl-table-empty": {
+      "figmaId": "592:5263",
+      "variables": {
+        "border/width/thin": "1",
+        "stroke/neutral/normal/default": "#c4c4c4",
+        "text/neutral/normal/default": "#333333",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/semibold": "600",
+        "sys/typo/label/md/semibold": "Font(family: \"font/family/sans\", style: SemiBold, size: font/size/14, weight: font/weight/semibold, lineHeight: 18, letterSpacing: font/letterSpacing/normal)",
+        "spacing/none": "0",
+        "spacing/3xs": "4",
+        "spacing/sm": "10",
+        "spacing/2xs": "6",
+        "office/bg/brand/subtle/default": "#e6eff9",
+        "stroke/neutral/subtle/default": "#d6d6d6",
+        "text/neutral/muted/default": "#909090",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xs": "8",
+        "spacing/lg": "16",
+        "bg/neutral/faint/default": "#ffffff"
+      }
+    },
+    "tbl-message-empty": {
+      "figmaId": "592:5955",
+      "variables": {
+        "text/neutral/muted/default": "#909090",
+        "font/letterSpacing/normal": "0",
+        "font/size/14": "14",
+        "font/family/sans": "Pretendard",
+        "font/weight/regular": "400",
+        "sys/typo/body/md/regular": "Font(family: \"font/family/sans\", style: Regular, size: font/size/14, weight: font/weight/regular, lineHeight: 21, letterSpacing: font/letterSpacing/normal)",
+        "spacing/xs": "8",
+        "spacing/sm": "10",
+        "spacing/lg": "16",
+        "bg/neutral/faint/default": "#ffffff",
+        "stroke/neutral/subtle/default": "#d6d6d6"
+      }
+    }
+  }
+}

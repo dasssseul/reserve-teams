@@ -1,0 +1,866 @@
+{
+  "sys": {
+    "bg": {
+      "neutral": {
+        "heavy": {
+          "default": {
+            "$value": "{global.color.gray.10}",
+            "$type": "color",
+            "$description": "→ gray/10 | 인버티드 UI 강조 배경 (#1c1c1c)"
+          }
+        },
+        "strong": {
+          "default": {
+            "$value": "{global.color.gray.30}",
+            "$type": "color",
+            "$description": "→ gray/30 | 강조 버튼·배경 기본 (#585858)"
+          },
+          "active": {
+            "$value": "{global.color.gray.20}",
+            "$type": "color",
+            "$description": "→ gray/20 | 강조 버튼·배경 활성 (#333333)"
+          },
+          "disabled": {
+            "$value": "{global.color.gray.80}",
+            "$type": "color",
+            "$description": "→ gray/80 | 강조 버튼·배경 비활성 (#c4c4c4)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.gray.90}",
+            "$type": "color",
+            "$description": "→ gray/90 | 기본 버튼·배경 기본 (#d6d6d6)"
+          }
+        },
+        "subtle": {
+          "default": {
+            "$value": "{global.color.gray.95}",
+            "$type": "color",
+            "$description": "→ gray/95 | 약한 버튼·배경 기본 (#eaeaea)"
+          },
+          "active": {
+            "$value": "{global.color.gray.90}",
+            "$type": "color",
+            "$description": "→ gray/90 | 약한 버튼·배경 활성 (#d6d6d6)"
+          },
+          "disabled": {
+            "$value": "{global.color.gray.100}",
+            "$type": "color",
+            "$description": "→ gray/100 | 약한 버튼·배경 비활성 (#f7f7f7)"
+          }
+        },
+        "muted": {
+          "default": {
+            "$value": "{global.color.gray.100}",
+            "$type": "color",
+            "$description": "→ gray/100 | 흐린 배경 (#f7f7f7)"
+          },
+          "active": {
+            "$value": "{global.color.gray.95}",
+            "$type": "color",
+            "$description": "→ gray/95 | 흐린 배경 활성 (#eaeaea, Hover=Active 통합). 2026-06-04 Figma 후행 동기화"
+          }
+        },
+        "faint": {
+          "default": {
+            "$value": "{global.color.base.white}",
+            "$type": "color",
+            "$description": "→ base/white | 가장 연한 배경 — 기본 페이지 배경 (#ffffff)"
+          },
+          "active": {
+            "$value": "{global.color.gray.100}",
+            "$type": "color",
+            "$description": "→ gray/100 | 가장 연한 배경 활성 (#f7f7f7)"
+          },
+          "disabled": {
+            "$value": "{global.color.gray.95}",
+            "$type": "color",
+            "$description": "→ gray/95 | 가장 연한 배경 비활성 (#eaeaea). 2026-06-04 Figma 후행 동기화"
+          }
+        }
+      },
+      "positive": {
+        "strong": {
+          "default": {
+            "$value": "{global.color.green.50}",
+            "$type": "color",
+            "$description": "→ green/50 | 성공·긍정 강조 배경 (#4cb24a)"
+          },
+          "active": {
+            "$value": "{global.color.green.40}",
+            "$type": "color",
+            "$description": "→ green/40 | 성공·긍정 강조 배경 활성 (#45a243)"
+          },
+          "disabled": {
+            "$value": "{global.color.green.90}",
+            "$type": "color",
+            "$description": "→ green/90 | 성공·긍정 강조 배경 비활성 (#c8e7c7)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.green.60}",
+            "$type": "color",
+            "$description": "→ green/60 | 성공·긍정 기본 배경 (#70c16e)"
+          }
+        },
+        "subtle": {
+          "default": {
+            "$value": "{global.color.green.100}",
+            "$type": "color",
+            "$description": "→ green/100 | 성공·긍정 약한 배경 (#edf7ed)"
+          },
+          "active": {
+            "$value": "{global.color.green.95}",
+            "$type": "color",
+            "$description": "→ green/95 | 긍정 subtle 활성 (Hover=Active 통합). 2026-05-19 v1.3.6 신설"
+          }
+        }
+      },
+      "warning": {
+        "strong": {
+          "default": {
+            "$value": "{global.color.orange.50}",
+            "$type": "color",
+            "$description": "→ orange/50 | 경고 강조 배경 (#f37d16)"
+          },
+          "active": {
+            "$value": "{global.color.orange.40}",
+            "$type": "color",
+            "$description": "→ orange/40 | 경고 강조 배경 활성 (#dd7214)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.orange.60}",
+            "$type": "color",
+            "$description": "→ orange/60 | 경고 기본 배경 (#f59745)"
+          }
+        },
+        "subtle": {
+          "default": {
+            "$value": "{global.color.orange.100}",
+            "$type": "color",
+            "$description": "→ orange/100 | 경고 약한 배경 (#fef2e8)"
+          },
+          "active": {
+            "$value": "{global.color.orange.95}",
+            "$type": "color",
+            "$description": "→ orange/95 | 경고 subtle 활성 (Hover=Active 통합). 2026-05-19 v1.3.6 신설"
+          }
+        }
+      },
+      "informative": {
+        "strong": {
+          "default": {
+            "$value": "{global.color.blue.50}",
+            "$type": "color",
+            "$description": "→ blue/50 | 정보 강조 배경 (#0062c1)"
+          },
+          "active": {
+            "$value": "{global.color.blue.40}",
+            "$type": "color",
+            "$description": "→ blue/40 | 정보 강조 배경 활성 (#0059b0)"
+          },
+          "disabled": {
+            "$value": "{global.color.sky_blue.90}",
+            "$type": "color",
+            "$description": "→ sky_blue/90 | 정보 강조 배경 비활성 (#badbf8)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.blue.60}",
+            "$type": "color",
+            "$description": "→ blue/60 | 정보 기본 배경 (#3381cd)"
+          }
+        },
+        "subtle": {
+          "default": {
+            "$value": "{global.color.blue.100}",
+            "$type": "color",
+            "$description": "→ blue/100 | 정보 약한 배경 (#e6eff9)"
+          },
+          "active": {
+            "$value": "{global.color.blue.95}",
+            "$type": "color",
+            "$description": "→ blue/95 | 정보 subtle 활성 (Hover=Active 통합). 2026-05-19 v1.3.6 신설"
+          }
+        }
+      },
+      "alert": {
+        "strong": {
+          "default": {
+            "$value": "{global.color.red.50}",
+            "$type": "color",
+            "$description": "→ red/50 | 위험·오류 강조 배경 (#d84a49)"
+          },
+          "active": {
+            "$value": "{global.color.red.40}",
+            "$type": "color",
+            "$description": "→ red/40 | 위험·오류 강조 배경 활성 (#c54342)"
+          },
+          "disabled": {
+            "$value": "{global.color.red.90}",
+            "$type": "color",
+            "$description": "→ red/90 | 위험·오류 강조 배경 비활성 (#f3c7c7)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.red.60}",
+            "$type": "color",
+            "$description": "→ red/60 | 위험·오류 기본 배경 (#e06e6d)"
+          }
+        },
+        "subtle": {
+          "default": {
+            "$value": "{global.color.red.100}",
+            "$type": "color",
+            "$description": "→ red/100 | 위험·오류 약한 배경 (#fbeded)"
+          },
+          "active": {
+            "$value": "{global.color.red.95}",
+            "$type": "color",
+            "$description": "→ red/95 | 경고 subtle 활성 (Hover=Active 통합). Table _Row.Validation=Error.Hover 사용. 2026-05-19 v1.3.6 신설"
+          }
+        }
+      },
+      "highlight": {
+        "strong": {
+          "default": {
+            "$value": "{global.color.yellow.50}",
+            "$type": "color",
+            "$description": "→ yellow/50 | 임시 강조 strong 기본 (#fdd449). 2026-06-04 Figma 후행 동기화"
+          },
+          "active": {
+            "$value": "{global.color.yellow.40}",
+            "$type": "color",
+            "$description": "→ yellow/40 | 임시 강조 strong 활성 (#e6c142, Hover=Active 통합). 2026-06-04 Figma 후행 동기화"
+          },
+          "disabled": {
+            "$value": "{global.color.yellow.90}",
+            "$type": "color",
+            "$description": "→ yellow/90 | 임시 강조 strong 비활성 (#fef2c7). 2026-06-04 Figma 후행 동기화"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.yellow.60}",
+            "$type": "color",
+            "$description": "→ yellow/60 | 임시 강조 normal 기본 (#fddd6d). 2026-06-04 Figma 후행 동기화"
+          }
+        },
+        "subtle": {
+          "default": {
+            "$value": "{global.color.yellow.100}",
+            "$type": "color",
+            "$description": "→ yellow/100 | 임시 강조 (검색 매칭·임시 포커스 등). Table _Row.Highlight=True 사용. 2026-05-19 v1.3.6 신설"
+          },
+          "active": {
+            "$value": "{global.color.yellow.95}",
+            "$type": "color",
+            "$description": "→ yellow/95 | 임시 강조 활성 (Hover=Active 통합). 2026-05-19 v1.3.6 신설"
+          }
+        }
+      },
+      "utility": {
+        "normal": {
+          "default": {
+            "$value": "{global.color.gray.95}",
+            "$type": "color",
+            "$description": "→ gray/95 | 기능성 UI 배경 — 툴팁, 뱃지 등 (#eaeaea)"
+          }
+        }
+      }
+    },
+    "text": {
+      "neutral": {
+        "heavy": {
+          "default": {
+            "$value": "{global.color.gray.5}",
+            "$type": "color",
+            "$description": "→ gray/5 | 최강 강조 텍스트 — 헤딩 (#101010)"
+          }
+        },
+        "strong": {
+          "default": {
+            "$value": "{global.color.gray.10}",
+            "$type": "color",
+            "$description": "→ gray/10 | 강조 텍스트 — 서브헤딩 (#1c1c1c)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.gray.20}",
+            "$type": "color",
+            "$description": "→ gray/20 | 기본 본문 텍스트 (#333333)"
+          },
+          "active": {
+            "$value": "{global.color.gray.15}",
+            "$type": "color",
+            "$description": "→ gray/15 | 기본 본문 텍스트 활성 (#242424)"
+          },
+          "disabled": {
+            "$value": "{global.color.gray.70}",
+            "$type": "color",
+            "$description": "→ gray/70 | 기본 본문 텍스트 비활성 (#aeaeae)"
+          }
+        },
+        "subtle": {
+          "default": {
+            "$value": "{global.color.gray.40}",
+            "$type": "color",
+            "$description": "→ gray/40 | 보조 설명 텍스트 (#676767)"
+          },
+          "active": {
+            "$value": "{global.color.gray.20}",
+            "$type": "color",
+            "$description": "→ gray/20 | 보조 설명 텍스트 활성 (#333333)"
+          },
+          "disabled": {
+            "$value": "{global.color.gray.80}",
+            "$type": "color",
+            "$description": "→ gray/80 | 보조 설명 텍스트 비활성 (#c4c4c4)"
+          }
+        },
+        "muted": {
+          "default": {
+            "$value": "{global.color.gray.50}",
+            "$type": "color",
+            "$description": "→ gray/50 | 힌트·플레이스홀더 텍스트 (#909090)"
+          }
+        },
+        "faint": {
+          "default": {
+            "$value": "{global.color.gray.70}",
+            "$type": "color",
+            "$description": "→ gray/70 | 가장 연한 텍스트 — 비활성 레이블 (#aeaeae)"
+          }
+        },
+        "inverse": {
+          "default": {
+            "$value": "{global.color.base.white}",
+            "$type": "color",
+            "$description": "→ base/white | 컬러·어두운 배경 위 텍스트 — 브랜드 버튼 등 (#ffffff). 상태(active/disabled)는 배경 토큰 변화로 표현, 텍스트는 항상 white 고정"
+          }
+        }
+      },
+      "positive": {
+        "strong": {
+          "default": {
+            "$value": "{global.color.green.30}",
+            "$type": "color",
+            "$description": "→ green/30 | 성공·긍정 강조 텍스트 (#367e35)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.green.40}",
+            "$type": "color",
+            "$description": "→ green/40 | 성공·긍정 기본 텍스트 (#45a243)"
+          }
+        }
+      },
+      "warning": {
+        "strong": {
+          "default": {
+            "$value": "{global.color.orange.30}",
+            "$type": "color",
+            "$description": "→ orange/30 | 경고 강조 텍스트 (#ad5910)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.orange.40}",
+            "$type": "color",
+            "$description": "→ orange/40 | 경고 기본 텍스트 (#dd7214)"
+          }
+        }
+      },
+      "informative": {
+        "strong": {
+          "default": {
+            "$value": "{global.color.blue.40}",
+            "$type": "color",
+            "$description": "→ blue/40 | 정보 강조 텍스트 (#0059b0)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.blue.50}",
+            "$type": "color",
+            "$description": "→ blue/50 | 정보 기본 텍스트 (#0062c1)"
+          }
+        }
+      },
+      "alert": {
+        "strong": {
+          "default": {
+            "$value": "{global.color.red.30}",
+            "$type": "color",
+            "$description": "→ red/30 | 오류·위험 강조 텍스트 (#993534)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.red.40}",
+            "$type": "color",
+            "$description": "→ red/40 | 오류·위험 기본 텍스트 (#c54342)"
+          }
+        }
+      },
+      "calendar": {
+        "weekday": {
+          "$value": "{global.color.gray.20}",
+          "$type": "color",
+          "$description": "평일 텍스트 — 캘린더·날짜축 라벨 기본 (#333). _DateAxisCell.Day Type=Weekday"
+        },
+        "saturday": {
+          "$value": "{global.color.blue.50}",
+          "$type": "color",
+          "$description": "토요일 텍스트 — 캘린더·날짜축 토요일 색 차등 (#0062c1, blue.50). _DateAxisCell.Day Type=Saturday. Office brand sky_blue 미참조 — sys-level calendar intent"
+        },
+        "holiday": {
+          "$value": "{global.color.red.50}",
+          "$type": "color",
+          "$description": "공휴일·일요일 텍스트 — 캘린더·날짜축 공휴일 색 차등 (#d84a49, red.50). _DateAxisCell.Day Type=Holiday. alert intent 미참조 — calendar 의미 단일성"
+        }
+      }
+    },
+    "stroke": {
+      "neutral": {
+        "strong": {
+          "default": {
+            "$value": "{global.color.gray.40}",
+            "$type": "color",
+            "$description": "→ gray/40 | 강조 테두리 — 선택·강조 (#676767) — 포커스 링은 sys.focus.ring.color로 이관"
+          },
+          "active": {
+            "$value": "{global.color.gray.30}",
+            "$type": "color",
+            "$description": "→ gray/30 | 강조 테두리 활성 (#585858)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.gray.80}",
+            "$type": "color",
+            "$description": "→ gray/80 | 강조 보더 슬롯 (#c4c4c4) — 강조 박스·선택 상태 등 후속 활용. 일반 보더는 subtle/default 사용"
+          }
+        },
+        "subtle": {
+          "default": {
+            "$value": "{global.color.gray.90}",
+            "$type": "color",
+            "$description": "→ gray/90 | 기본 보더 통합 — Input·Outline 버튼·Card·Divider 등 일반 보더 (#d6d6d6)"
+          },
+          "active": {
+            "$value": "{global.color.gray.70}",
+            "$type": "color",
+            "$description": "→ gray/70 | 기본 보더 활성 (#aeaeae) — gray.80은 normal/default와 겹쳐 2단계 이동"
+          }
+        }
+      },
+      "positive": {
+        "normal": {
+          "default": {
+            "$value": "{global.color.green.50}",
+            "$type": "color",
+            "$description": "→ green/50 | 성공·긍정 테두리 (#4cb24a)"
+          }
+        }
+      },
+      "warning": {
+        "normal": {
+          "default": {
+            "$value": "{global.color.orange.50}",
+            "$type": "color",
+            "$description": "→ orange/50 | 경고 테두리 (#f37d16)"
+          }
+        }
+      },
+      "informative": {
+        "normal": {
+          "default": {
+            "$value": "{global.color.blue.50}",
+            "$type": "color",
+            "$description": "→ blue/50 | 정보 테두리 (#0062c1)"
+          }
+        }
+      },
+      "alert": {
+        "normal": {
+          "default": {
+            "$value": "{global.color.red.50}",
+            "$type": "color",
+            "$description": "→ red/50 | 오류·위험 테두리 (#d84a49)"
+          }
+        }
+      },
+      "calendar": {
+        "now-indicator": {
+          "$value": "{global.color.red.50}",
+          "$type": "color",
+          "$description": "현재 시각 선 — 타임테이블 _NowIndicator Line/Dot (#d84a49, red.50). Calendar intent를 stroke로 확장. 업계 표준 now-indicator 빨강 (Google Calendar·Outlook·Apple 정합). alert intent 미참조 — calendar 의미 단일성. solid 운영 (dashed=_SelectionBox 전용)"
+        }
+      }
+    },
+    "icon": {
+      "neutral": {
+        "heavy": {
+          "default": {
+            "$value": "{global.color.gray.5}",
+            "$type": "color",
+            "$description": "→ gray/5 | 최강조 아이콘 (#101010)"
+          }
+        },
+        "normal": {
+          "default": {
+            "$value": "{global.color.gray.20}",
+            "$type": "color",
+            "$description": "→ gray/20 | 기본 아이콘 (#333333)"
+          },
+          "active": {
+            "$value": "{global.color.gray.15}",
+            "$type": "color",
+            "$description": "→ gray/15 | 기본 아이콘 활성 (#242424)"
+          },
+          "disabled": {
+            "$value": "{global.color.gray.70}",
+            "$type": "color",
+            "$description": "→ gray/70 | 기본 아이콘 비활성 (#aeaeae)"
+          }
+        },
+        "subtle": {
+          "default": {
+            "$value": "{global.color.gray.40}",
+            "$type": "color",
+            "$description": "→ gray/40 | 보조 아이콘 (#676767)"
+          },
+          "active": {
+            "$value": "{global.color.gray.20}",
+            "$type": "color",
+            "$description": "→ gray/20 | 보조 아이콘 활성 (#333333)"
+          },
+          "disabled": {
+            "$value": "{global.color.gray.80}",
+            "$type": "color",
+            "$description": "→ gray/80 | 보조 아이콘 비활성 (#c4c4c4)"
+          }
+        },
+        "muted": {
+          "default": {
+            "$value": "{global.color.gray.50}",
+            "$type": "color",
+            "$description": "→ gray/50 | 비활성에 가까운 아이콘 (#909090)"
+          }
+        },
+        "faint": {
+          "default": {
+            "$value": "{global.color.gray.70}",
+            "$type": "color",
+            "$description": "→ gray/70 | 비활성 레이블·약화 아이콘 (#aeaeae). text/neutral/faint와 정합. 2026-06-04 Figma 후행 동기화"
+          }
+        },
+        "inverse": {
+          "default": {
+            "$value": "{global.color.base.white}",
+            "$type": "color",
+            "$description": "→ base/white | 컬러·어두운 배경 위 아이콘 — 브랜드 버튼 등 (#ffffff). 상태는 배경 토큰 변화로 표현, 아이콘은 항상 white 고정"
+          }
+        }
+      },
+      "positive": {
+        "normal": {
+          "default": {
+            "$value": "{global.color.green.40}",
+            "$type": "color",
+            "$description": "→ green/40 | 성공·긍정 아이콘 (#45a243)"
+          }
+        }
+      },
+      "warning": {
+        "normal": {
+          "default": {
+            "$value": "{global.color.orange.40}",
+            "$type": "color",
+            "$description": "→ orange/40 | 경고 아이콘 (#dd7214)"
+          }
+        }
+      },
+      "informative": {
+        "normal": {
+          "default": {
+            "$value": "{global.color.blue.50}",
+            "$type": "color",
+            "$description": "→ blue/50 | 정보 아이콘 (#0062c1)"
+          }
+        }
+      },
+      "alert": {
+        "normal": {
+          "default": {
+            "$value": "{global.color.red.50}",
+            "$type": "color",
+            "$description": "→ red/50 | 오류·위험 아이콘 (#d84a49)"
+          }
+        }
+      }
+    },
+    "overlay": {
+      "neutral": {
+        "normal": {
+          "default": {
+            "$value": "{global.color.base.black}",
+            "$type": "color",
+            "$description": "→ base/black | 모달·다이얼로그 scrim 색 (순수 black). dim은 sys/opacity/scrim(40%) 합성 적용 — opacity=동적 / color=상태 책임 분리. 2026-06-04 합성 모델 전환 (트리거 ⑤ 오너 직권, 기존 rgba(0,0,0,0.40) baked supersede)"
+          }
+        }
+      }
+    },
+    "radius": {
+      "none": {
+        "$value": "{global.radius.0}",
+        "$type": "dimension",
+        "$description": "0px — 직각"
+      },
+      "xs": {
+        "$value": "{global.radius.2}",
+        "$type": "dimension",
+        "$description": "2px"
+      },
+      "sm": {
+        "$value": "{global.radius.4}",
+        "$type": "dimension",
+        "$description": "4px"
+      },
+      "md": {
+        "$value": "{global.radius.6}",
+        "$type": "dimension",
+        "$description": "6px"
+      },
+      "lg": {
+        "$value": "{global.radius.8}",
+        "$type": "dimension",
+        "$description": "8px"
+      },
+      "xl": {
+        "$value": "{global.radius.12}",
+        "$type": "dimension",
+        "$description": "12px"
+      },
+      "2xl": {
+        "$value": "{global.radius.16}",
+        "$type": "dimension",
+        "$description": "16px"
+      },
+      "3xl": {
+        "$value": "{global.radius.20}",
+        "$type": "dimension",
+        "$description": "20px"
+      },
+      "4xl": {
+        "$value": "{global.radius.24}",
+        "$type": "dimension",
+        "$description": "24px"
+      },
+      "full": {
+        "$value": "{global.radius.full}",
+        "$type": "dimension",
+        "$description": "9999px — pill / circle"
+      }
+    },
+    "spacing": {
+      "none": {
+        "$value": "{global.spacing.0}",
+        "$type": "dimension",
+        "$description": "0px"
+      },
+      "5xs": {
+        "$value": "{global.spacing.1}",
+        "$type": "dimension",
+        "$description": "1px — 미세 간격 (Helper text 사이 등)"
+      },
+      "4xs": {
+        "$value": "{global.spacing.2}",
+        "$type": "dimension",
+        "$description": "2px"
+      },
+      "3xs": {
+        "$value": "{global.spacing.4}",
+        "$type": "dimension",
+        "$description": "4px"
+      },
+      "2xs": {
+        "$value": "{global.spacing.6}",
+        "$type": "dimension",
+        "$description": "6px"
+      },
+      "xs": {
+        "$value": "{global.spacing.8}",
+        "$type": "dimension",
+        "$description": "8px"
+      },
+      "sm": {
+        "$value": "{global.spacing.10}",
+        "$type": "dimension",
+        "$description": "10px"
+      },
+      "md": {
+        "$value": "{global.spacing.12}",
+        "$type": "dimension",
+        "$description": "12px"
+      },
+      "lg": {
+        "$value": "{global.spacing.16}",
+        "$type": "dimension",
+        "$description": "16px"
+      },
+      "xl": {
+        "$value": "{global.spacing.20}",
+        "$type": "dimension",
+        "$description": "20px"
+      },
+      "2xl": {
+        "$value": "{global.spacing.24}",
+        "$type": "dimension",
+        "$description": "24px"
+      },
+      "3xl": {
+        "$value": "{global.spacing.32}",
+        "$type": "dimension",
+        "$description": "32px"
+      },
+      "4xl": {
+        "$value": "{global.spacing.40}",
+        "$type": "dimension",
+        "$description": "40px"
+      },
+      "5xl": {
+        "$value": "{global.spacing.48}",
+        "$type": "dimension",
+        "$description": "48px"
+      },
+      "6xl": {
+        "$value": "{global.spacing.56}",
+        "$type": "dimension",
+        "$description": "56px — 최대 간격대 6xl. 2026-06-04 Figma 실측 56 반영 (트리거 ② 실측 충돌, 기존 64→56)"
+      }
+    },
+    "elevation": {
+      "none": {
+        "$value": "{global.shadow.0}",
+        "$type": "shadow",
+        "$description": "그림자 없음 — Flat 표면"
+      },
+      "raised": {
+        "$value": "{global.shadow.1}",
+        "$type": "shadow",
+        "$description": "Lv1 — 미세 부상 (정적 카드 강조, 분리감 표현)"
+      },
+      "floating": {
+        "$value": "{global.shadow.2}",
+        "$type": "shadow",
+        "$description": "Lv2 — Card·Box 기본 컨테이너 부유"
+      },
+      "dropdown": {
+        "$value": "{global.shadow.3}",
+        "$type": "shadow",
+        "$description": "Lv3 — Dropdown·Popover·Tooltip"
+      },
+      "modal": {
+        "$value": "{global.shadow.4}",
+        "$type": "shadow",
+        "$description": "Lv4 — Modal·Dialog·Side panel"
+      },
+      "toast": {
+        "$value": "{global.shadow.5}",
+        "$type": "shadow",
+        "$description": "Lv5 — Toast·Fullscreen overlay"
+      }
+    },
+    "border": {
+      "width": {
+        "none": {
+          "$value": "{global.border.width.0}",
+          "$type": "dimension",
+          "$description": "0px — 보더 없음"
+        },
+        "thin": {
+          "$value": "{global.border.width.1}",
+          "$type": "dimension",
+          "$description": "1px — Input·Outline 버튼·Card·Divider 등 기본 보더 두께"
+        },
+        "medium": {
+          "$value": "{global.border.width.2}",
+          "$type": "dimension",
+          "$description": "2px — 강조 보더 (선택·체크 상태 등). 포커스 링은 sys.focus.ring.width로 분리 운영"
+        },
+        "thick": {
+          "$value": "{global.border.width.3}",
+          "$type": "dimension",
+          "$description": "3px — 굵은 강조 보더 (강조 박스·하이라이트 등)"
+        },
+        "heavy": {
+          "$value": "{global.border.width.4}",
+          "$type": "dimension",
+          "$description": "4px — 최강조 보더 (최강 시각 강조 슬롯)"
+        }
+      },
+      "style": {
+        "solid": {
+          "$value": "{global.border.style.solid}",
+          "$type": "strokeStyle",
+          "$description": "실선 보더 — _SlotCell.Hour stroke / 일반 보더 기본값"
+        },
+        "dashed": {
+          "$value": "{global.border.style.dashed}",
+          "$type": "strokeStyle",
+          "$description": "점선 보더 — _SlotCell.HalfHour stroke (시간 보조 분기), _SelectionBox 드래그 임시 영역"
+        }
+      }
+    },
+    "size": {
+      "icon": {
+        "md": {
+          "$value": "{global.size.16}",
+          "$type": "dimension",
+          "$description": "16px — form control 옆 tooltip(question-circle) 표준 아이콘 크기. 사용처: checkbox·form-field·radio·toggle."
+        }
+      }
+    },
+    "focus": {
+      "ring": {
+        "width": {
+          "$value": "{global.border.width.2}",
+          "$type": "dimension",
+          "$description": "2px — 키보드 포커스 링 두께 (FocusVisible)"
+        },
+        "offset": {
+          "$value": "{global.border.width.4}",
+          "$type": "dimension",
+          "$description": "4px — 컴포넌트 외곽선과 포커스 링 사이 간격 (outline-offset). 2026-06-04 Figma 실측 4px 반영 (트리거 ② 실측 충돌, 기존 2px→4px)"
+        },
+        "color": {
+          "$value": "{global.color.blue.50}",
+          "$type": "color",
+          "$description": "→ blue/50 | 포커스 링 전용 컬러 (#0062c1) — informative와 의도 분리 보존"
+        }
+      }
+    },
+    "opacity": {
+      "dragging": {
+        "$value": "{global.opacity.50}",
+        "$type": "number",
+        "$description": "_DnDRow.DragState=Dragging — 자기 자신이 끌리는 중 시각 (50% opacity). Figma 표기 50 / JSON 0.5. 2026-05-20 v1.4.1 신설"
+      },
+      "scrim": {
+        "$value": "{global.opacity.40}",
+        "$type": "number",
+        "$description": "모달·시트 배경 scrim 불투명도 (40%). overlay color(base.black 등)와 합성 — opacity=동적효과 / color=상태 책임 분리. Figma 정수 40 / JSON 0.4. 2026-06-04 신설 (opacity/40에 의미 부여)"
+      }
+    }
+  }
+}

@@ -1,0 +1,1331 @@
+{
+  "global": {
+    "color": {
+      "base": {
+        "white": {
+          "$value": "#ffffff",
+          "$type": "color",
+          "$description": "순수 흰색 — 기본 페이지 배경, 카드 배경"
+        },
+        "black": {
+          "$value": "#000000",
+          "$type": "color",
+          "$description": "순수 검정 — 약한 오버레이 (opacity는 컴포넌트 레벨에서 별도 적용)"
+        }
+      },
+      "gray": {
+        "5": {
+          "$value": "#101010",
+          "$type": "color",
+          "$description": "gray/5 — 인버티드 UI 최강 배경"
+        },
+        "10": {
+          "$value": "#1c1c1c",
+          "$type": "color",
+          "$description": "gray/10 — 다크 섹션 배경 활성"
+        },
+        "15": {
+          "$value": "#242424",
+          "$type": "color",
+          "$description": "gray/15 — 다크 섹션 배경"
+        },
+        "20": {
+          "$value": "#333333",
+          "$type": "color",
+          "$description": "gray/20 — 기본 텍스트"
+        },
+        "30": {
+          "$value": "#585858",
+          "$type": "color",
+          "$description": "gray/30 — 강한 스트로크 활성"
+        },
+        "40": {
+          "$value": "#676767",
+          "$type": "color",
+          "$description": "gray/40 — subtle 텍스트, 강한 스트로크"
+        },
+        "50": {
+          "$value": "#909090",
+          "$type": "color",
+          "$description": "gray/50 — muted 텍스트·아이콘"
+        },
+        "60": {
+          "$value": "#999999",
+          "$type": "color",
+          "$description": "gray/60 — 비활성 영역"
+        },
+        "70": {
+          "$value": "#aeaeae",
+          "$type": "color",
+          "$description": "gray/70 — faint 텍스트"
+        },
+        "80": {
+          "$value": "#c4c4c4",
+          "$type": "color",
+          "$description": "gray/80 — heavy/disabled 상태"
+        },
+        "90": {
+          "$value": "#d6d6d6",
+          "$type": "color",
+          "$description": "gray/90 — strong/disabled 상태"
+        },
+        "95": {
+          "$value": "#eaeaea",
+          "$type": "color",
+          "$description": "gray/95 — subtle 배경, utility 배경"
+        },
+        "100": {
+          "$value": "#f7f7f7",
+          "$type": "color",
+          "$description": "gray/100 — 기본 배경 호버, muted·faint 배경"
+        }
+      },
+      "blue": {
+        "10": {
+          "$value": "#001a38",
+          "$type": "color",
+          "$description": "blue/10"
+        },
+        "15": {
+          "$value": "#002951",
+          "$type": "color",
+          "$description": "blue/15"
+        },
+        "20": {
+          "$value": "#00366a",
+          "$type": "color",
+          "$description": "blue/20"
+        },
+        "30": {
+          "$value": "#004689",
+          "$type": "color",
+          "$description": "blue/30 — office 브랜드 강조 텍스트"
+        },
+        "40": {
+          "$value": "#0059b0",
+          "$type": "color",
+          "$description": "blue/40 — office CTA 활성, informative 텍스트 강조"
+        },
+        "50": {
+          "$value": "#0062c1",
+          "$type": "color",
+          "$description": "blue/50 — office 브랜드 CTA, informative strong 배경"
+        },
+        "60": {
+          "$value": "#3381cd",
+          "$type": "color",
+          "$description": "blue/60 — informative normal 배경, office 브랜드 기본 배경"
+        },
+        "70": {
+          "$value": "#5496d5",
+          "$type": "color",
+          "$description": "blue/70"
+        },
+        "80": {
+          "$value": "#8ab7e2",
+          "$type": "color",
+          "$description": "blue/80"
+        },
+        "90": {
+          "$value": "#b0ceec",
+          "$type": "color",
+          "$description": "blue/90 — office CTA 비활성"
+        },
+        "95": {
+          "$value": "#c8def3",
+          "$type": "color",
+          "$description": "blue/95"
+        },
+        "100": {
+          "$value": "#e6eff9",
+          "$type": "color",
+          "$description": "blue/100 — informative subtle 배경, office 브랜드 subtle 배경"
+        }
+      },
+      "green": {
+        "10": {
+          "$value": "#082d0c",
+          "$type": "color",
+          "$description": "green/10"
+        },
+        "15": {
+          "$value": "#143d19",
+          "$type": "color",
+          "$description": "green/15"
+        },
+        "20": {
+          "$value": "#2a6229",
+          "$type": "color",
+          "$description": "green/20"
+        },
+        "30": {
+          "$value": "#367e35",
+          "$type": "color",
+          "$description": "green/30 — positive 강조 텍스트"
+        },
+        "40": {
+          "$value": "#45a243",
+          "$type": "color",
+          "$description": "green/40 — positive CTA 활성, positive 기본 텍스트·아이콘"
+        },
+        "50": {
+          "$value": "#4cb24a",
+          "$type": "color",
+          "$description": "green/50 — positive strong 배경, positive 스트로크"
+        },
+        "60": {
+          "$value": "#70c16e",
+          "$type": "color",
+          "$description": "green/60 — positive normal 배경"
+        },
+        "70": {
+          "$value": "#87cb86",
+          "$type": "color",
+          "$description": "green/70"
+        },
+        "80": {
+          "$value": "#addcac",
+          "$type": "color",
+          "$description": "green/80"
+        },
+        "90": {
+          "$value": "#c8e7c7",
+          "$type": "color",
+          "$description": "green/90 — positive CTA 비활성"
+        },
+        "95": {
+          "$value": "#dbf0da",
+          "$type": "color",
+          "$description": "green/95"
+        },
+        "100": {
+          "$value": "#edf7ed",
+          "$type": "color",
+          "$description": "green/100 — positive subtle 배경"
+        }
+      },
+      "red": {
+        "10": {
+          "$value": "#39100e",
+          "$type": "color",
+          "$description": "red/10"
+        },
+        "15": {
+          "$value": "#531b1a",
+          "$type": "color",
+          "$description": "red/15"
+        },
+        "20": {
+          "$value": "#772928",
+          "$type": "color",
+          "$description": "red/20"
+        },
+        "30": {
+          "$value": "#993534",
+          "$type": "color",
+          "$description": "red/30 — alert 강조 텍스트"
+        },
+        "40": {
+          "$value": "#c54342",
+          "$type": "color",
+          "$description": "red/40 — alert CTA 활성, alert 기본 텍스트·아이콘"
+        },
+        "50": {
+          "$value": "#d84a49",
+          "$type": "color",
+          "$description": "red/50 — alert strong 배경, alert 스트로크"
+        },
+        "60": {
+          "$value": "#e06e6d",
+          "$type": "color",
+          "$description": "red/60 — alert normal 배경"
+        },
+        "70": {
+          "$value": "#e58685",
+          "$type": "color",
+          "$description": "red/70"
+        },
+        "80": {
+          "$value": "#edacab",
+          "$type": "color",
+          "$description": "red/80"
+        },
+        "90": {
+          "$value": "#f3c7c7",
+          "$type": "color",
+          "$description": "red/90 — alert CTA 비활성"
+        },
+        "95": {
+          "$value": "#f7d7d7",
+          "$type": "color",
+          "$description": "red/95"
+        },
+        "100": {
+          "$value": "#fbeded",
+          "$type": "color",
+          "$description": "red/100 — alert subtle 배경"
+        }
+      },
+      "orange": {
+        "10": {
+          "$value": "#2f1806",
+          "$type": "color",
+          "$description": "orange/10"
+        },
+        "15": {
+          "$value": "#3e2009",
+          "$type": "color",
+          "$description": "orange/15"
+        },
+        "20": {
+          "$value": "#86450c",
+          "$type": "color",
+          "$description": "orange/20"
+        },
+        "30": {
+          "$value": "#ad5910",
+          "$type": "color",
+          "$description": "orange/30 — warning 강조 텍스트"
+        },
+        "40": {
+          "$value": "#dd7214",
+          "$type": "color",
+          "$description": "orange/40 — warning CTA 활성, warning 기본 텍스트·아이콘"
+        },
+        "50": {
+          "$value": "#f37d16",
+          "$type": "color",
+          "$description": "orange/50 — warning strong 배경, warning 스트로크"
+        },
+        "60": {
+          "$value": "#f59745",
+          "$type": "color",
+          "$description": "orange/60 — warning normal 배경"
+        },
+        "70": {
+          "$value": "#f7a863",
+          "$type": "color",
+          "$description": "orange/70"
+        },
+        "80": {
+          "$value": "#f9c394",
+          "$type": "color",
+          "$description": "orange/80"
+        },
+        "90": {
+          "$value": "#fbd7b7",
+          "$type": "color",
+          "$description": "orange/90"
+        },
+        "95": {
+          "$value": "#fde5cd",
+          "$type": "color",
+          "$description": "orange/95"
+        },
+        "100": {
+          "$value": "#fef2e8",
+          "$type": "color",
+          "$description": "orange/100 — warning subtle 배경"
+        }
+      },
+      "yellow": {
+        "10": {
+          "$value": "#312c12",
+          "$type": "color",
+          "$description": "yellow/10"
+        },
+        "15": {
+          "$value": "#413a1c",
+          "$type": "color",
+          "$description": "yellow/15"
+        },
+        "20": {
+          "$value": "#8b7528",
+          "$type": "color",
+          "$description": "yellow/20"
+        },
+        "30": {
+          "$value": "#b49734",
+          "$type": "color",
+          "$description": "yellow/30"
+        },
+        "40": {
+          "$value": "#e6c142",
+          "$type": "color",
+          "$description": "yellow/40"
+        },
+        "50": {
+          "$value": "#fdd449",
+          "$type": "color",
+          "$description": "yellow/50"
+        },
+        "60": {
+          "$value": "#fddd6d",
+          "$type": "color",
+          "$description": "yellow/60"
+        },
+        "70": {
+          "$value": "#fee285",
+          "$type": "color",
+          "$description": "yellow/70"
+        },
+        "80": {
+          "$value": "#feebab",
+          "$type": "color",
+          "$description": "yellow/80"
+        },
+        "90": {
+          "$value": "#fef2c7",
+          "$type": "color",
+          "$description": "yellow/90"
+        },
+        "95": {
+          "$value": "#fff7dc",
+          "$type": "color",
+          "$description": "yellow/95"
+        },
+        "100": {
+          "$value": "#fffbed",
+          "$type": "color",
+          "$description": "yellow/100"
+        }
+      },
+      "purple": {
+        "10": {
+          "$value": "#281e34",
+          "$type": "color",
+          "$description": "purple/10"
+        },
+        "15": {
+          "$value": "#372a4a",
+          "$type": "color",
+          "$description": "purple/15"
+        },
+        "20": {
+          "$value": "#483661",
+          "$type": "color",
+          "$description": "purple/20"
+        },
+        "30": {
+          "$value": "#5c467d",
+          "$type": "color",
+          "$description": "purple/30 — HR 브랜드 강조 텍스트"
+        },
+        "40": {
+          "$value": "#7658a7",
+          "$type": "color",
+          "$description": "purple/40 — HR 브랜드 CTA, HR 브랜드 기본 텍스트·아이콘"
+        },
+        "50": {
+          "$value": "#8263b0",
+          "$type": "color",
+          "$description": "purple/50 — HR 브랜드 기본 배경, HR 브랜드 스트로크"
+        },
+        "60": {
+          "$value": "#9b82c0",
+          "$type": "color",
+          "$description": "purple/60"
+        },
+        "70": {
+          "$value": "#ab96ca",
+          "$type": "color",
+          "$description": "purple/70"
+        },
+        "80": {
+          "$value": "#c6b7db",
+          "$type": "color",
+          "$description": "purple/80"
+        },
+        "90": {
+          "$value": "#d8cfe7",
+          "$type": "color",
+          "$description": "purple/90 — HR CTA 비활성"
+        },
+        "95": {
+          "$value": "#e6dff0",
+          "$type": "color",
+          "$description": "purple/95"
+        },
+        "100": {
+          "$value": "#f3eff7",
+          "$type": "color",
+          "$description": "purple/100 — HR 브랜드 subtle 배경"
+        }
+      },
+      "light_blue": {
+        "10": {
+          "$value": "#313e46",
+          "$type": "color",
+          "$description": "light_blue/10"
+        },
+        "15": {
+          "$value": "#475968",
+          "$type": "color",
+          "$description": "light_blue/15"
+        },
+        "20": {
+          "$value": "#5d7588",
+          "$type": "color",
+          "$description": "light_blue/20"
+        },
+        "30": {
+          "$value": "#7897b0",
+          "$type": "color",
+          "$description": "light_blue/30"
+        },
+        "40": {
+          "$value": "#9ac1e2",
+          "$type": "color",
+          "$description": "light_blue/40"
+        },
+        "50": {
+          "$value": "#a9d4f8",
+          "$type": "color",
+          "$description": "light_blue/50"
+        },
+        "60": {
+          "$value": "#baddf9",
+          "$type": "color",
+          "$description": "light_blue/60"
+        },
+        "70": {
+          "$value": "#c5e2fa",
+          "$type": "color",
+          "$description": "light_blue/70"
+        },
+        "80": {
+          "$value": "#d7ebfc",
+          "$type": "color",
+          "$description": "light_blue/80"
+        },
+        "90": {
+          "$value": "#e4f2fd",
+          "$type": "color",
+          "$description": "light_blue/90"
+        },
+        "95": {
+          "$value": "#ecf7fe",
+          "$type": "color",
+          "$description": "light_blue/95"
+        },
+        "100": {
+          "$value": "#f6fbfe",
+          "$type": "color",
+          "$description": "light_blue/100"
+        }
+      },
+      "sky_blue": {
+        "10": {
+          "$value": "#072738",
+          "$type": "color",
+          "$description": "sky_blue/10"
+        },
+        "15": {
+          "$value": "#0d3b61",
+          "$type": "color",
+          "$description": "sky_blue/15"
+        },
+        "20": {
+          "$value": "#114d80",
+          "$type": "color",
+          "$description": "sky_blue/20"
+        },
+        "30": {
+          "$value": "#1663a5",
+          "$type": "color",
+          "$description": "sky_blue/30"
+        },
+        "40": {
+          "$value": "#1c7fd3",
+          "$type": "color",
+          "$description": "sky_blue/40"
+        },
+        "50": {
+          "$value": "#1f8ce8",
+          "$type": "color",
+          "$description": "sky_blue/50"
+        },
+        "60": {
+          "$value": "#4ca3ed",
+          "$type": "color",
+          "$description": "sky_blue/60"
+        },
+        "70": {
+          "$value": "#69b2f0",
+          "$type": "color",
+          "$description": "sky_blue/70"
+        },
+        "80": {
+          "$value": "#98caf4",
+          "$type": "color",
+          "$description": "sky_blue/80"
+        },
+        "90": {
+          "$value": "#badbf8",
+          "$type": "color",
+          "$description": "sky_blue/90 — informative strong 비활성"
+        },
+        "95": {
+          "$value": "#d8e9fb",
+          "$type": "color",
+          "$description": "sky_blue/95"
+        },
+        "100": {
+          "$value": "#e9f4fd",
+          "$type": "color",
+          "$description": "sky_blue/100"
+        }
+      },
+      "cyan": {
+        "10": {
+          "$value": "#0e3c3c",
+          "$type": "color",
+          "$description": "cyan/10"
+        },
+        "15": {
+          "$value": "#146464",
+          "$type": "color",
+          "$description": "cyan/15"
+        },
+        "20": {
+          "$value": "#1a8c8c",
+          "$type": "color",
+          "$description": "cyan/20"
+        },
+        "30": {
+          "$value": "#22b5b5",
+          "$type": "color",
+          "$description": "cyan/30"
+        },
+        "40": {
+          "$value": "#2ce8e8",
+          "$type": "color",
+          "$description": "cyan/40"
+        },
+        "50": {
+          "$value": "#30ffff",
+          "$type": "color",
+          "$description": "cyan/50"
+        },
+        "60": {
+          "$value": "#59ffff",
+          "$type": "color",
+          "$description": "cyan/60"
+        },
+        "70": {
+          "$value": "#74ffff",
+          "$type": "color",
+          "$description": "cyan/70"
+        },
+        "80": {
+          "$value": "#a0ffff",
+          "$type": "color",
+          "$description": "cyan/80"
+        },
+        "90": {
+          "$value": "#bfffff",
+          "$type": "color",
+          "$description": "cyan/90"
+        },
+        "95": {
+          "$value": "#d6ffff",
+          "$type": "color",
+          "$description": "cyan/95"
+        },
+        "100": {
+          "$value": "#eaffff",
+          "$type": "color",
+          "$description": "cyan/100"
+        }
+      },
+      "olive": {
+        "10": {
+          "$value": "#282b16",
+          "$type": "color",
+          "$description": "olive/10"
+        },
+        "15": {
+          "$value": "#404929",
+          "$type": "color",
+          "$description": "olive/15"
+        },
+        "20": {
+          "$value": "#5a673b",
+          "$type": "color",
+          "$description": "olive/20"
+        },
+        "30": {
+          "$value": "#74854d",
+          "$type": "color",
+          "$description": "olive/30"
+        },
+        "40": {
+          "$value": "#95ab62",
+          "$type": "color",
+          "$description": "olive/40"
+        },
+        "50": {
+          "$value": "#a4bc6c",
+          "$type": "color",
+          "$description": "olive/50"
+        },
+        "60": {
+          "$value": "#b6c989",
+          "$type": "color",
+          "$description": "olive/60"
+        },
+        "70": {
+          "$value": "#c2d29d",
+          "$type": "color",
+          "$description": "olive/70"
+        },
+        "80": {
+          "$value": "#d5e0bb",
+          "$type": "color",
+          "$description": "olive/80"
+        },
+        "90": {
+          "$value": "#e3ead1",
+          "$type": "color",
+          "$description": "olive/90"
+        },
+        "95": {
+          "$value": "#edf1e3",
+          "$type": "color",
+          "$description": "olive/95"
+        },
+        "100": {
+          "$value": "#f6f8f0",
+          "$type": "color",
+          "$description": "olive/100"
+        }
+      },
+      "cool_gray": {
+        "10": {
+          "$value": "#282a2e",
+          "$type": "color",
+          "$description": "cool_gray/10"
+        },
+        "15": {
+          "$value": "#393e43",
+          "$type": "color",
+          "$description": "cool_gray/15"
+        },
+        "20": {
+          "$value": "#4a5158",
+          "$type": "color",
+          "$description": "cool_gray/20"
+        },
+        "30": {
+          "$value": "#606872",
+          "$type": "color",
+          "$description": "cool_gray/30"
+        },
+        "40": {
+          "$value": "#7b8692",
+          "$type": "color",
+          "$description": "cool_gray/40"
+        },
+        "50": {
+          "$value": "#8793a0",
+          "$type": "color",
+          "$description": "cool_gray/50"
+        },
+        "60": {
+          "$value": "#9fa9b3",
+          "$type": "color",
+          "$description": "cool_gray/60"
+        },
+        "70": {
+          "$value": "#afb7bf",
+          "$type": "color",
+          "$description": "cool_gray/70"
+        },
+        "80": {
+          "$value": "#c8cdd3",
+          "$type": "color",
+          "$description": "cool_gray/80"
+        },
+        "90": {
+          "$value": "#dadee2",
+          "$type": "color",
+          "$description": "cool_gray/90"
+        },
+        "95": {
+          "$value": "#e8e9ec",
+          "$type": "color",
+          "$description": "cool_gray/95"
+        },
+        "100": {
+          "$value": "#f3f4f6",
+          "$type": "color",
+          "$description": "cool_gray/100"
+        }
+      },
+      "blue_gray": {
+        "10": {
+          "$value": "#232b37",
+          "$type": "color",
+          "$description": "blue_gray/10"
+        },
+        "15": {
+          "$value": "#333f50",
+          "$type": "color",
+          "$description": "blue_gray/15"
+        },
+        "20": {
+          "$value": "#435269",
+          "$type": "color",
+          "$description": "blue_gray/20"
+        },
+        "30": {
+          "$value": "#576a87",
+          "$type": "color",
+          "$description": "blue_gray/30"
+        },
+        "40": {
+          "$value": "#6f88ad",
+          "$type": "color",
+          "$description": "blue_gray/40"
+        },
+        "50": {
+          "$value": "#7a95be",
+          "$type": "color",
+          "$description": "blue_gray/50"
+        },
+        "60": {
+          "$value": "#95aacb",
+          "$type": "color",
+          "$description": "blue_gray/60"
+        },
+        "70": {
+          "$value": "#a6b8d3",
+          "$type": "color",
+          "$description": "blue_gray/70"
+        },
+        "80": {
+          "$value": "#c2cee1",
+          "$type": "color",
+          "$description": "blue_gray/80"
+        },
+        "90": {
+          "$value": "#d6deeb",
+          "$type": "color",
+          "$description": "blue_gray/90"
+        },
+        "95": {
+          "$value": "#e5e9f2",
+          "$type": "color",
+          "$description": "blue_gray/95"
+        },
+        "100": {
+          "$value": "#f2f4f9",
+          "$type": "color",
+          "$description": "blue_gray/100"
+        }
+      },
+      "violet": {
+        "10": {
+          "$value": "#20193c",
+          "$type": "color",
+          "$description": "violet/10"
+        },
+        "15": {
+          "$value": "#2e2456",
+          "$type": "color",
+          "$description": "violet/15"
+        },
+        "20": {
+          "$value": "#3c2f70",
+          "$type": "color",
+          "$description": "violet/20"
+        },
+        "30": {
+          "$value": "#4d3d91",
+          "$type": "color",
+          "$description": "violet/30"
+        },
+        "40": {
+          "$value": "#634eba",
+          "$type": "color",
+          "$description": "violet/40"
+        },
+        "50": {
+          "$value": "#6d56cc",
+          "$type": "color",
+          "$description": "violet/50"
+        },
+        "60": {
+          "$value": "#8a78d6",
+          "$type": "color",
+          "$description": "violet/60"
+        },
+        "70": {
+          "$value": "#9d8edd",
+          "$type": "color",
+          "$description": "violet/70"
+        },
+        "80": {
+          "$value": "#bcb1e8",
+          "$type": "color",
+          "$description": "violet/80"
+        },
+        "90": {
+          "$value": "#c2beec",
+          "$type": "color",
+          "$description": "violet/90"
+        },
+        "95": {
+          "$value": "#e1ddf4",
+          "$type": "color",
+          "$description": "violet/95"
+        },
+        "100": {
+          "$value": "#f0eefa",
+          "$type": "color",
+          "$description": "violet/100"
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "sans": {
+          "$value": "Pretendard",
+          "$type": "fontFamily",
+          "$description": "전 서비스 단일 폰트 패밀리"
+        }
+      },
+      "size": {
+        "10": {
+          "$value": "10px",
+          "$type": "dimension",
+          "$description": "caption/xs — 최소 허용 크기"
+        },
+        "11": {
+          "$value": "11px",
+          "$type": "dimension",
+          "$description": "caption/sm"
+        },
+        "12": {
+          "$value": "12px",
+          "$type": "dimension",
+          "$description": "caption/md, label/sm"
+        },
+        "13": {
+          "$value": "13px",
+          "$type": "dimension",
+          "$description": "label/md, body/sm"
+        },
+        "14": {
+          "$value": "14px",
+          "$type": "dimension",
+          "$description": "body/md (기본값), label/lg, heading/xs"
+        },
+        "16": {
+          "$value": "16px",
+          "$type": "dimension",
+          "$description": "body/lg, heading/sm"
+        },
+        "18": {
+          "$value": "18px",
+          "$type": "dimension",
+          "$description": "heading/md"
+        },
+        "20": {
+          "$value": "20px",
+          "$type": "dimension",
+          "$description": "heading/lg"
+        },
+        "24": {
+          "$value": "24px",
+          "$type": "dimension",
+          "$description": "heading/xl"
+        },
+        "28": {
+          "$value": "28px",
+          "$type": "dimension",
+          "$description": "heading/xxl"
+        },
+        "32": {
+          "$value": "32px",
+          "$type": "dimension",
+          "$description": "display/md"
+        },
+        "36": {
+          "$value": "36px",
+          "$type": "dimension",
+          "$description": "display/lg"
+        },
+        "40": {
+          "$value": "40px",
+          "$type": "dimension",
+          "$description": "display/xl"
+        },
+        "48": {
+          "$value": "48px",
+          "$type": "dimension",
+          "$description": "display/2xl"
+        }
+      },
+      "weight": {
+        "regular": {
+          "$value": 400,
+          "$type": "number",
+          "$description": "Pretendard Regular — 운용 중"
+        },
+        "medium": {
+          "$value": 500,
+          "$type": "number",
+          "$description": "Pretendard Medium — label/caption 일부 사용"
+        },
+        "semibold": {
+          "$value": 600,
+          "$type": "number",
+          "$description": "Pretendard SemiBold — 운용 중"
+        },
+        "bold": {
+          "$value": 700,
+          "$type": "number",
+          "$description": "Pretendard Bold — Figma 정의됨, 실사용 시점에 sys 토큰 추가 예정"
+        }
+      },
+      "lineHeight": {
+        "tight": {
+          "$value": "120%",
+          "$type": "number",
+          "$description": "120% — Display·Heading. 설계 기준 참조용 (Figma Variables % 바인딩 불가 → Text Style에 px 직접 입력)"
+        },
+        "compact": {
+          "$value": "140%",
+          "$type": "number",
+          "$description": "140% — Label·UI 요소·heading/xs. 설계 기준 참조용"
+        },
+        "normal": {
+          "$value": "150%",
+          "$type": "number",
+          "$description": "150% — Body·Caption 읽기용 기본값. 설계 기준 참조용"
+        },
+        "relaxed": {
+          "$value": "160%",
+          "$type": "number",
+          "$description": "160% — 장문 본문 가독성 우선. 설계 기준 참조용"
+        }
+      },
+      "letterSpacing": {
+        "tight": {
+          "$value": "-2%",
+          "$type": "number",
+          "$description": "-2% — Display 대형 텍스트 무게감 강조"
+        },
+        "normal": {
+          "$value": "0%",
+          "$type": "number",
+          "$description": "0% — 일반 텍스트 기본값"
+        },
+        "wide": {
+          "$value": "+2%",
+          "$type": "number",
+          "$description": "+2% — caption/xs(10px) 한글 가독성 보정"
+        }
+      }
+    },
+    "radius": {
+      "0": {
+        "$value": "0px",
+        "$type": "dimension",
+        "$description": "0px — 직각 (테두리 없음)"
+      },
+      "2": {
+        "$value": "2px",
+        "$type": "dimension",
+        "$description": "2px"
+      },
+      "4": {
+        "$value": "4px",
+        "$type": "dimension",
+        "$description": "4px"
+      },
+      "6": {
+        "$value": "6px",
+        "$type": "dimension",
+        "$description": "6px"
+      },
+      "8": {
+        "$value": "8px",
+        "$type": "dimension",
+        "$description": "8px"
+      },
+      "12": {
+        "$value": "12px",
+        "$type": "dimension",
+        "$description": "12px"
+      },
+      "16": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "16px"
+      },
+      "20": {
+        "$value": "20px",
+        "$type": "dimension",
+        "$description": "20px"
+      },
+      "24": {
+        "$value": "24px",
+        "$type": "dimension",
+        "$description": "24px"
+      },
+      "full": {
+        "$value": "9999px",
+        "$type": "dimension",
+        "$description": "9999px — 완전 원형 (pill/circle)"
+      }
+    },
+    "spacing": {
+      "0": {
+        "$value": "0px",
+        "$type": "dimension",
+        "$description": "0px"
+      },
+      "1": {
+        "$value": "1px",
+        "$type": "dimension",
+        "$description": "1px — 미세 간격 (Helper text 위 아래 등)"
+      },
+      "2": {
+        "$value": "2px",
+        "$type": "dimension",
+        "$description": "2px"
+      },
+      "4": {
+        "$value": "4px",
+        "$type": "dimension",
+        "$description": "4px"
+      },
+      "6": {
+        "$value": "6px",
+        "$type": "dimension",
+        "$description": "6px"
+      },
+      "8": {
+        "$value": "8px",
+        "$type": "dimension",
+        "$description": "8px"
+      },
+      "10": {
+        "$value": "10px",
+        "$type": "dimension",
+        "$description": "10px"
+      },
+      "12": {
+        "$value": "12px",
+        "$type": "dimension",
+        "$description": "12px"
+      },
+      "14": {
+        "$value": "14px",
+        "$type": "dimension",
+        "$description": "14px"
+      },
+      "16": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "16px"
+      },
+      "20": {
+        "$value": "20px",
+        "$type": "dimension",
+        "$description": "20px"
+      },
+      "24": {
+        "$value": "24px",
+        "$type": "dimension",
+        "$description": "24px"
+      },
+      "28": {
+        "$value": "28px",
+        "$type": "dimension",
+        "$description": "28px"
+      },
+      "32": {
+        "$value": "32px",
+        "$type": "dimension",
+        "$description": "32px"
+      },
+      "40": {
+        "$value": "40px",
+        "$type": "dimension",
+        "$description": "40px"
+      },
+      "48": {
+        "$value": "48px",
+        "$type": "dimension",
+        "$description": "48px"
+      },
+      "56": {
+        "$value": "56px",
+        "$type": "dimension",
+        "$description": "56px"
+      },
+      "64": {
+        "$value": "64px",
+        "$type": "dimension",
+        "$description": "64px"
+      },
+      "80": {
+        "$value": "80px",
+        "$type": "dimension",
+        "$description": "80px"
+      },
+      "96": {
+        "$value": "96px",
+        "$type": "dimension",
+        "$description": "96px"
+      },
+      "120": {
+        "$value": "120px",
+        "$type": "dimension",
+        "$description": "120px"
+      }
+    },
+    "border": {
+      "width": {
+        "0": {
+          "$value": "0px",
+          "$type": "dimension",
+          "$description": "0px — 보더 없음"
+        },
+        "1": {
+          "$value": "1px",
+          "$type": "dimension",
+          "$description": "1px — 기본 보더 두께"
+        },
+        "2": {
+          "$value": "2px",
+          "$type": "dimension",
+          "$description": "2px — 강조·포커스 링 두께"
+        },
+        "3": {
+          "$value": "3px",
+          "$type": "dimension",
+          "$description": "3px — 굵은 강조 두께"
+        },
+        "4": {
+          "$value": "4px",
+          "$type": "dimension",
+          "$description": "4px — 최강조 두께"
+        },
+        "5": {
+          "$value": "5px",
+          "$type": "dimension",
+          "$description": "5px — 미래 확장 슬롯 (현재 sys 미참조)"
+        }
+      },
+      "style": {
+        "solid": {
+          "$value": "solid",
+          "$type": "strokeStyle",
+          "$description": "solid border-style (실선) — DTCG strokeStyle 표준"
+        },
+        "dashed": {
+          "$value": "dashed",
+          "$type": "strokeStyle",
+          "$description": "dashed border-style (점선) — DTCG strokeStyle 표준"
+        }
+      }
+    },
+    "size": {
+      "16": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "16px — 차원 primitive (icon·dimensional size용). 향후 12/14/20/24 점진 신설."
+      }
+    },
+    "shadow": {
+      "0": {
+        "$type": "shadow",
+        "$value": {
+          "color": "rgba(0, 0, 0, 0)",
+          "offsetX": 0,
+          "offsetY": 0,
+          "blur": 0,
+          "spread": 0,
+          "inset": false
+        },
+        "$description": "Lv0 — 그림자 없음"
+      },
+      "1": {
+        "$type": "shadow",
+        "$value": {
+          "color": "rgba(0, 0, 0, 0.06)",
+          "offsetX": 0,
+          "offsetY": 1,
+          "blur": 4,
+          "spread": 0,
+          "inset": false
+        },
+        "$description": "Lv1 — 미세 부상감"
+      },
+      "2": {
+        "$type": "shadow",
+        "$value": {
+          "color": "rgba(0, 0, 0, 0.08)",
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 8,
+          "spread": 0,
+          "inset": false
+        },
+        "$description": "Lv2 — 카드 레벨"
+      },
+      "3": {
+        "$type": "shadow",
+        "$value": {
+          "color": "rgba(0, 0, 0, 0.10)",
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 16,
+          "spread": 0,
+          "inset": false
+        },
+        "$description": "Lv3 — 드롭다운 / 팝오버"
+      },
+      "4": {
+        "$type": "shadow",
+        "$value": {
+          "color": "rgba(0, 0, 0, 0.12)",
+          "offsetX": 0,
+          "offsetY": 8,
+          "blur": 24,
+          "spread": 0,
+          "inset": false
+        },
+        "$description": "Lv4 — 모달 / 사이드패널"
+      },
+      "5": {
+        "$type": "shadow",
+        "$value": {
+          "color": "rgba(0, 0, 0, 0.16)",
+          "offsetX": 0,
+          "offsetY": 12,
+          "blur": 40,
+          "spread": 0,
+          "inset": false
+        },
+        "$description": "Lv5 — 풀스크린 오버레이"
+      }
+    },
+    "opacity": {
+      "40": {
+        "$value": 0.4,
+        "$type": "number",
+        "$description": "40% — primitive opacity. Modal scrim overlay 등 사용. Figma 40 / JSON 0.4. 2026-05-20 v1.4.1 신설"
+      },
+      "50": {
+        "$value": 0.5,
+        "$type": "number",
+        "$description": "50% — primitive opacity value. Figma Variable에는 50(integer)으로 입력 (소수점 입력 한계). JSON·CSS·코드에서는 0.5 (number 0~1). lineHeight 패턴 정합. 2026-05-20 v1.4.1 신설"
+      }
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "service": {
+    "hr": {
+      "bg": {
+        "brand": {
+          "strong": {
+            "default": {
+              "$value": "{global.color.violet.50}",
+              "$type": "color",
+              "$description": "→ violet/50 | HR 브랜드 메인 및 CTA 버튼 배경 (#6d56cc)"
+            },
+            "active": {
+              "$value": "{global.color.violet.40}",
+              "$type": "color",
+              "$description": "→ violet/40 | HR CTA 버튼 배경 활성 (#634eba)"
+            },
+            "disabled": {
+              "$value": "{global.color.violet.90}",
+              "$type": "color",
+              "$description": "→ violet/90 | HR CTA 버튼 배경 비활성 (#c2beec)"
+            }
+          },
+          "normal": {
+            "default": {
+              "$value": "{global.color.violet.95}",
+              "$type": "color",
+              "$description": "→ violet/95 | HR 브랜드 기본 배경 (#e1ddf4)"
+            }
+          },
+          "subtle": {
+            "default": {
+              "$value": "{global.color.purple.100}",
+              "$type": "color",
+              "$description": "→ purple/100 | HR 브랜드 약한 배경 — 배지, 태그 등 (#f3eff7)"
+            }
+          }
+        }
+      },
+      "text": {
+        "brand": {
+          "strong": {
+            "default": {
+              "$value": "{global.color.violet.40}",
+              "$type": "color",
+              "$description": "→ violet/40 | HR 브랜드 강조 텍스트 (#634eba)"
+            }
+          },
+          "normal": {
+            "default": {
+              "$value": "{global.color.violet.50}",
+              "$type": "color",
+              "$description": "→ violet/50 | HR 브랜드 기본 텍스트 (#6d56cc)"
+            },
+            "disabled": {
+              "$value": "{global.color.violet.90}",
+              "$type": "color",
+              "$description": "→ violet/90 | HR 브랜드 기본 텍스트 비활성 (#c2beec)"
+            }
+          }
+        }
+      },
+      "stroke": {
+        "brand": {
+          "normal": {
+            "default": {
+              "$value": "{global.color.violet.50}",
+              "$type": "color",
+              "$description": "→ violet/50 | HR 브랜드 기본 테두리 (#6d56cc)"
+            }
+          }
+        }
+      },
+      "icon": {
+        "brand": {
+          "normal": {
+            "default": {
+              "$value": "{global.color.violet.50}",
+              "$type": "color",
+              "$description": "→ violet/50 | HR 브랜드 아이콘 (#6d56cc)"
+            },
+            "disabled": {
+              "$value": "{global.color.violet.90}",
+              "$type": "color",
+              "$description": "→ violet/90 | HR 브랜드 아이콘 비활성 (#c2beec)"
+            }
+          }
+        }
+      }
+    },
+    "office": {
+      "bg": {
+        "brand": {
+          "strong": {
+            "default": {
+              "$value": "{global.color.sky_blue.40}",
+              "$type": "color",
+              "$description": "→ sky_blue/40 | 오피스 브랜드 메인 및 CTA 버튼 배경 (#1c7fd3)"
+            },
+            "active": {
+              "$value": "{global.color.blue.50}",
+              "$type": "color",
+              "$description": "→ blue/50 | 오피스 CTA 버튼 배경 활성 (#0062c1)"
+            },
+            "disabled": {
+              "$value": "{global.color.blue.90}",
+              "$type": "color",
+              "$description": "→ blue/90 | 오피스 CTA 버튼 배경 비활성 (#b0ceec)"
+            }
+          },
+          "normal": {
+            "default": {
+              "$value": "{global.color.sky_blue.95}",
+              "$type": "color",
+              "$description": "→ sky_blue/95 | 오피스 브랜드 기본 배경 (#d8e9fb)"
+            },
+            "active": {
+              "$value": "{global.color.sky_blue.90}",
+              "$type": "color",
+              "$description": "→ sky_blue/90 | normal Hover/Pressed 강조 (#badbf8). Hover=Active 통합 (2026-04-22)"
+            },
+            "disabled": {
+              "$value": "{global.color.blue_gray.80}",
+              "$type": "color",
+              "$description": "→ blue_gray/80 | normal 비활성 (#c2cee1)"
+            }
+          },
+          "subtle": {
+            "default": {
+              "$value": "{global.color.blue.100}",
+              "$type": "color",
+              "$description": "→ blue/100 | 오피스 브랜드 약한 배경 — 배지, 태그 등 (#e6eff9)"
+            },
+            "active": {
+              "$value": "{global.color.light_blue.80}",
+              "$type": "color",
+              "$description": "→ light_blue/80 | subtle Hover/DragOver/Selected.Hover 강조 (#d7ebfc). Hover=Active 통합 + DragOver 흡수 (2026-05-21)"
+            },
+            "disabled": {
+              "$value": "{global.color.blue_gray.90}",
+              "$type": "color",
+              "$description": "→ blue_gray/90 | subtle 비활성 — LNB Disabled 등 (#d6deeb)"
+            }
+          },
+          "faint": {
+            "default": {
+              "$value": "{global.color.light_blue.100}",
+              "$type": "color",
+              "$description": "→ light_blue/100 | faint 옅은 brand bg 진입점 (#f6fbfe). 2026-05-21 cool_gray.100→light_blue.100 정정 (brand intent 정합)"
+            },
+            "active": {
+              "$value": "{global.color.light_blue.95}",
+              "$type": "color",
+              "$description": "→ light_blue/95 | faint Hover 강조 — LNB Nav Item Hover 등 (#ecf7fe). 2026-05-21 신설"
+            }
+          }
+        }
+      },
+      "text": {
+        "brand": {
+          "strong": {
+            "default": {
+              "$value": "{global.color.blue.50}",
+              "$type": "color",
+              "$description": "→ blue/50 | 오피스 브랜드 강조 텍스트 (#0062c1)"
+            }
+          },
+          "normal": {
+            "default": {
+              "$value": "{global.color.sky_blue.40}",
+              "$type": "color",
+              "$description": "→ sky_blue/40 | 오피스 브랜드 기본 텍스트 (#1c7fd3)"
+            },
+            "disabled": {
+              "$value": "{global.color.sky_blue.90}",
+              "$type": "color",
+              "$description": "→ sky_blue/90 | 오피스 브랜드 기본 텍스트 비활성 (#badbf8)"
+            }
+          }
+        }
+      },
+      "stroke": {
+        "brand": {
+          "normal": {
+            "default": {
+              "$value": "{global.color.sky_blue.40}",
+              "$type": "color",
+              "$description": "→ sky_blue/40 | 오피스 브랜드 기본 테두리 (#1c7fd3)"
+            }
+          },
+          "subtle": {
+            "default": {
+              "$value": "{global.color.sky_blue.80}",
+              "$type": "color",
+              "$description": "→ sky_blue/80 | 오피스 브랜드 약화 테두리 (#98caf4) — EventBlock.Mine.Tentative 막대 (timetable v0.8)"
+            }
+          },
+          "faint": {
+            "default": {
+              "$value": "{global.color.blue_gray.90}",
+              "$type": "color",
+              "$description": "→ blue_gray/90 | 오피스 브랜드 약한 테두리 (#d6deeb). 2026-06-04 Figma 후행 동기화"
+            }
+          }
+        }
+      },
+      "icon": {
+        "brand": {
+          "strong": {
+            "default": {
+              "$value": "{global.color.blue.50}",
+              "$type": "color",
+              "$description": "→ blue/50 | 오피스 브랜드 강조 아이콘 (#0062c1). 2026-06-04 Figma 후행 동기화"
+            }
+          },
+          "normal": {
+            "default": {
+              "$value": "{global.color.sky_blue.40}",
+              "$type": "color",
+              "$description": "→ sky_blue/40 | 오피스 브랜드 아이콘 (#1c7fd3)"
+            },
+            "disabled": {
+              "$value": "{global.color.sky_blue.90}",
+              "$type": "color",
+              "$description": "→ sky_blue/90 | 오피스 브랜드 아이콘 비활성 (#badbf8)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

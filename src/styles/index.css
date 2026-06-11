@@ -1,0 +1,248 @@
+@import 'tailwindcss';
+@import '@gabia-inc/hiworks-ui-components/tokens.css';
+
+/* ─────────────────────────────────────────────────────────────────────
+   @theme — Tailwind 유틸리티 클래스 생성용 토큰
+   spacing → p-*, m-*, gap-* / radius → rounded-* / shadow → shadow-*
+   ───────────────────────────────────────────────────────────────────── */
+@theme {
+  /* ── Spacing (sys/spacing/*) ──────────────────────────────────────── */
+  --spacing-none: var(--sys-spacing-none);
+  --spacing-4xs: var(--sys-spacing-4xs);
+  --spacing-3xs: var(--sys-spacing-3xs);
+  --spacing-2xs: var(--sys-spacing-2xs);
+  --spacing-xs: var(--sys-spacing-xs);
+  --spacing-sm: var(--sys-spacing-sm);
+  --spacing-md: var(--sys-spacing-md);
+  --spacing-lg: var(--sys-spacing-lg);
+  --spacing-xl: var(--sys-spacing-xl);
+  --spacing-2xl: var(--sys-spacing-2xl);
+  --spacing-3xl: var(--sys-spacing-3xl);
+  --spacing-4xl: var(--sys-spacing-4xl);
+  --spacing-5xl: var(--sys-spacing-5xl);
+  --spacing-6xl: var(--sys-spacing-6xl);
+
+  /* ── Border Radius (sys/radius/*) ────────────────────────────────── */
+  --radius-none: var(--sys-radius-none);
+  --radius-xs: var(--sys-radius-xs);
+  --radius-sm: var(--sys-radius-sm);
+  --radius-md: var(--sys-radius-md);
+  --radius-lg: var(--sys-radius-lg);
+  --radius-xl: var(--sys-radius-xl);
+  --radius-2xl: var(--sys-radius-2xl);
+  --radius-3xl: var(--sys-radius-3xl);
+  --radius-4xl: var(--sys-radius-4xl);
+  --radius-full: var(--sys-radius-full);
+
+  /* ── Elevation / Shadow (global/shadow/*) ────────────────────────── */
+  --shadow-lv0: var(--global-shadow-0);
+  --shadow-lv1: var(--global-shadow-1);
+  --shadow-lv2: var(--global-shadow-2);
+  --shadow-lv3: var(--global-shadow-3);
+  --shadow-lv4: var(--global-shadow-4);
+  --shadow-lv5: var(--global-shadow-5);
+}
+
+/* ─────────────────────────────────────────────────────────────────────
+   @utility — Typography 복합 스타일 (sys/typo/*)
+   클래스명: {role}-{size}-{weight}  예) body-md-regular, label-md-semibold
+   ───────────────────────────────────────────────────────────────────── */
+
+/* Display */
+@utility display-2xl-bold {
+  font-family: Pretendard, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: -0.02em;
+}
+@utility display-xl-bold {
+  font-family: Pretendard, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+}
+@utility display-lg-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: -0.02em;
+}
+@utility display-md-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: -0.02em;
+}
+
+/* Heading */
+@utility heading-xxl-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0;
+}
+@utility heading-xl-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0;
+}
+@utility heading-lg-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+@utility heading-md-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0;
+}
+@utility heading-sm-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0;
+}
+@utility heading-xs-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+/* Body */
+@utility body-lg-regular {
+  font-family: Pretendard, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+@utility body-lg-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+@utility body-md-regular {
+  font-family: Pretendard, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0;
+}
+@utility body-md-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0;
+}
+@utility body-sm-regular {
+  font-family: Pretendard, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+/* Label */
+@utility label-lg-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0;
+}
+@utility label-lg-regular {
+  font-family: Pretendard, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0;
+}
+@utility label-md-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+@utility label-md-regular {
+  font-family: Pretendard, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+@utility label-sm-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0;
+}
+@utility label-sm-regular {
+  font-family: Pretendard, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0;
+}
+@utility label-xs-semibold {
+  font-family: Pretendard, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0;
+}
+@utility label-xs-medium {
+  font-family: Pretendard, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0;
+}
+
+/* Caption */
+@utility caption-md-regular {
+  font-family: Pretendard, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+@utility caption-md-medium {
+  font-family: Pretendard, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+@utility caption-sm-medium {
+  font-family: Pretendard, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0;
+}
+@utility caption-xs-medium {
+  font-family: Pretendard, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+}

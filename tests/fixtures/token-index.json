@@ -1,0 +1,2235 @@
+{
+  "_schema": 2,
+  "_generatedAt": "2026-06-08T05:37:17.941Z",
+  "_source": "<project>/node_modules/.pnpm/@gabia-inc+hiworks-ui-components@1.0.14_@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@19.2_tamq3gltvers5vgf5k3klinpkm/node_modules/@gabia-inc/hiworks-ui-components/tokens/tokens.css",
+  "byHex": {
+    "#ffffff": {
+      "tokens": [
+        "--sys-bg-neutral-faint-default",
+        "--sys-text-neutral-inverse-default",
+        "--sys-icon-neutral-inverse-default",
+        "--global-color-base-white"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-neutral-faint-default"
+        ],
+        "text": [
+          "--sys-text-neutral-inverse-default"
+        ],
+        "icon": [
+          "--sys-icon-neutral-inverse-default"
+        ],
+        "palette": [
+          "--global-color-base-white"
+        ]
+      }
+    },
+    "#000000": {
+      "tokens": [
+        "--sys-overlay-neutral-normal-default",
+        "--sys-overlay-neutral-subtle-default",
+        "--sys-overlay-neutral-normal-default",
+        "--global-color-base-black"
+      ],
+      "byCategory": {
+        "overlay": [
+          "--sys-overlay-neutral-normal-default",
+          "--sys-overlay-neutral-subtle-default",
+          "--sys-overlay-neutral-normal-default"
+        ],
+        "palette": [
+          "--global-color-base-black"
+        ]
+      }
+    },
+    "#101010": {
+      "tokens": [
+        "--sys-text-neutral-heavy-default",
+        "--sys-icon-neutral-heavy-default",
+        "--global-color-gray-5"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-neutral-heavy-default"
+        ],
+        "icon": [
+          "--sys-icon-neutral-heavy-default"
+        ],
+        "palette": [
+          "--global-color-gray-5"
+        ]
+      }
+    },
+    "#1c1c1c": {
+      "tokens": [
+        "--sys-bg-neutral-heavy-default",
+        "--sys-text-neutral-strong-default",
+        "--global-color-gray-10"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-neutral-heavy-default"
+        ],
+        "text": [
+          "--sys-text-neutral-strong-default"
+        ],
+        "palette": [
+          "--global-color-gray-10"
+        ]
+      }
+    },
+    "#242424": {
+      "tokens": [
+        "--sys-text-neutral-normal-active",
+        "--sys-icon-neutral-normal-active",
+        "--global-color-gray-15"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-neutral-normal-active"
+        ],
+        "icon": [
+          "--sys-icon-neutral-normal-active"
+        ],
+        "palette": [
+          "--global-color-gray-15"
+        ]
+      }
+    },
+    "#333333": {
+      "tokens": [
+        "--sys-text-neutral-normal-default",
+        "--sys-icon-neutral-normal-default",
+        "--sys-bg-neutral-strong-active",
+        "--sys-text-neutral-subtle-active",
+        "--sys-icon-neutral-subtle-active",
+        "--sys-text-calendar-weekday",
+        "--global-color-gray-20"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-neutral-normal-default",
+          "--sys-text-neutral-subtle-active",
+          "--sys-text-calendar-weekday"
+        ],
+        "icon": [
+          "--sys-icon-neutral-normal-default",
+          "--sys-icon-neutral-subtle-active"
+        ],
+        "bg": [
+          "--sys-bg-neutral-strong-active"
+        ],
+        "palette": [
+          "--global-color-gray-20"
+        ]
+      }
+    },
+    "#585858": {
+      "tokens": [
+        "--sys-bg-neutral-strong-default",
+        "--sys-stroke-neutral-strong-active",
+        "--global-color-gray-30"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-neutral-strong-default"
+        ],
+        "stroke": [
+          "--sys-stroke-neutral-strong-active"
+        ],
+        "palette": [
+          "--global-color-gray-30"
+        ]
+      }
+    },
+    "#676767": {
+      "tokens": [
+        "--sys-text-neutral-subtle-default",
+        "--sys-stroke-neutral-strong-default",
+        "--sys-icon-neutral-subtle-default",
+        "--global-color-gray-40"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-neutral-subtle-default"
+        ],
+        "stroke": [
+          "--sys-stroke-neutral-strong-default"
+        ],
+        "icon": [
+          "--sys-icon-neutral-subtle-default"
+        ],
+        "palette": [
+          "--global-color-gray-40"
+        ]
+      }
+    },
+    "#909090": {
+      "tokens": [
+        "--sys-text-neutral-muted-default",
+        "--sys-icon-neutral-muted-default",
+        "--global-color-gray-50"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-neutral-muted-default"
+        ],
+        "icon": [
+          "--sys-icon-neutral-muted-default"
+        ],
+        "palette": [
+          "--global-color-gray-50"
+        ]
+      }
+    },
+    "#999999": {
+      "tokens": [
+        "--global-color-gray-60"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-gray-60"
+        ]
+      }
+    },
+    "#aeaeae": {
+      "tokens": [
+        "--sys-text-neutral-faint-default",
+        "--sys-icon-neutral-faint-default",
+        "--sys-stroke-neutral-subtle-active",
+        "--sys-text-neutral-normal-disabled",
+        "--sys-icon-neutral-normal-disabled",
+        "--global-color-gray-70"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-neutral-faint-default",
+          "--sys-text-neutral-normal-disabled"
+        ],
+        "icon": [
+          "--sys-icon-neutral-faint-default",
+          "--sys-icon-neutral-normal-disabled"
+        ],
+        "stroke": [
+          "--sys-stroke-neutral-subtle-active"
+        ],
+        "palette": [
+          "--global-color-gray-70"
+        ]
+      }
+    },
+    "#c4c4c4": {
+      "tokens": [
+        "--sys-stroke-neutral-normal-default",
+        "--sys-bg-neutral-strong-disabled",
+        "--sys-text-neutral-subtle-disabled",
+        "--sys-icon-neutral-subtle-disabled",
+        "--global-color-gray-80"
+      ],
+      "byCategory": {
+        "stroke": [
+          "--sys-stroke-neutral-normal-default"
+        ],
+        "bg": [
+          "--sys-bg-neutral-strong-disabled"
+        ],
+        "text": [
+          "--sys-text-neutral-subtle-disabled"
+        ],
+        "icon": [
+          "--sys-icon-neutral-subtle-disabled"
+        ],
+        "palette": [
+          "--global-color-gray-80"
+        ]
+      }
+    },
+    "#d6d6d6": {
+      "tokens": [
+        "--sys-bg-neutral-normal-default",
+        "--sys-stroke-neutral-subtle-default",
+        "--sys-bg-neutral-subtle-active",
+        "--global-color-gray-90"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-neutral-normal-default",
+          "--sys-bg-neutral-subtle-active"
+        ],
+        "stroke": [
+          "--sys-stroke-neutral-subtle-default"
+        ],
+        "palette": [
+          "--global-color-gray-90"
+        ]
+      }
+    },
+    "#eaeaea": {
+      "tokens": [
+        "--sys-bg-neutral-subtle-default",
+        "--sys-bg-utility-normal-default",
+        "--sys-bg-neutral-muted-active",
+        "--sys-bg-neutral-faint-disabled",
+        "--global-color-gray-95"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-neutral-subtle-default",
+          "--sys-bg-utility-normal-default",
+          "--sys-bg-neutral-muted-active",
+          "--sys-bg-neutral-faint-disabled"
+        ],
+        "palette": [
+          "--global-color-gray-95"
+        ]
+      }
+    },
+    "#f7f7f7": {
+      "tokens": [
+        "--sys-bg-neutral-muted-default",
+        "--sys-bg-neutral-faint-active",
+        "--sys-bg-neutral-subtle-disabled",
+        "--global-color-gray-100"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-neutral-muted-default",
+          "--sys-bg-neutral-faint-active",
+          "--sys-bg-neutral-subtle-disabled"
+        ],
+        "palette": [
+          "--global-color-gray-100"
+        ]
+      }
+    },
+    "#001a38": {
+      "tokens": [
+        "--global-color-blue-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue-10"
+        ]
+      }
+    },
+    "#002951": {
+      "tokens": [
+        "--global-color-blue-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue-15"
+        ]
+      }
+    },
+    "#00366a": {
+      "tokens": [
+        "--global-color-blue-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue-20"
+        ]
+      }
+    },
+    "#004689": {
+      "tokens": [
+        "--global-color-blue-30"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue-30"
+        ]
+      }
+    },
+    "#0059b0": {
+      "tokens": [
+        "--sys-text-informative-strong-default",
+        "--sys-bg-informative-strong-active",
+        "--global-color-blue-40"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-informative-strong-default"
+        ],
+        "bg": [
+          "--sys-bg-informative-strong-active"
+        ],
+        "palette": [
+          "--global-color-blue-40"
+        ]
+      }
+    },
+    "#0062c1": {
+      "tokens": [
+        "--office-text-brand-strong-default",
+        "--office-icon-brand-strong-default",
+        "--office-bg-brand-strong-active",
+        "--sys-bg-informative-strong-default",
+        "--sys-text-informative-normal-default",
+        "--sys-stroke-informative-normal-default",
+        "--sys-icon-informative-normal-default",
+        "--sys-text-calendar-saturday",
+        "--global-color-blue-50"
+      ],
+      "byCategory": {
+        "text": [
+          "--office-text-brand-strong-default",
+          "--sys-text-informative-normal-default",
+          "--sys-text-calendar-saturday"
+        ],
+        "icon": [
+          "--office-icon-brand-strong-default",
+          "--sys-icon-informative-normal-default"
+        ],
+        "bg": [
+          "--office-bg-brand-strong-active",
+          "--sys-bg-informative-strong-default"
+        ],
+        "stroke": [
+          "--sys-stroke-informative-normal-default"
+        ],
+        "palette": [
+          "--global-color-blue-50"
+        ]
+      }
+    },
+    "#3381cd": {
+      "tokens": [
+        "--sys-bg-informative-normal-default",
+        "--global-color-blue-60"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-informative-normal-default"
+        ],
+        "palette": [
+          "--global-color-blue-60"
+        ]
+      }
+    },
+    "#5496d5": {
+      "tokens": [
+        "--global-color-blue-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue-70"
+        ]
+      }
+    },
+    "#8ab7e2": {
+      "tokens": [
+        "--global-color-blue-80"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue-80"
+        ]
+      }
+    },
+    "#b0ceec": {
+      "tokens": [
+        "--office-bg-brand-strong-disabled",
+        "--global-color-blue-90"
+      ],
+      "byCategory": {
+        "bg": [
+          "--office-bg-brand-strong-disabled"
+        ],
+        "palette": [
+          "--global-color-blue-90"
+        ]
+      }
+    },
+    "#c8def3": {
+      "tokens": [
+        "--sys-bg-informative-subtle-active",
+        "--global-color-blue-95"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-informative-subtle-active"
+        ],
+        "palette": [
+          "--global-color-blue-95"
+        ]
+      }
+    },
+    "#e6eff9": {
+      "tokens": [
+        "--office-bg-brand-subtle-default",
+        "--sys-bg-informative-subtle-default",
+        "--global-color-blue-100"
+      ],
+      "byCategory": {
+        "bg": [
+          "--office-bg-brand-subtle-default",
+          "--sys-bg-informative-subtle-default"
+        ],
+        "palette": [
+          "--global-color-blue-100"
+        ]
+      }
+    },
+    "#082d0c": {
+      "tokens": [
+        "--global-color-green-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-green-10"
+        ]
+      }
+    },
+    "#143d19": {
+      "tokens": [
+        "--global-color-green-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-green-15"
+        ]
+      }
+    },
+    "#2a6229": {
+      "tokens": [
+        "--global-color-green-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-green-20"
+        ]
+      }
+    },
+    "#367e35": {
+      "tokens": [
+        "--sys-text-positive-strong-default",
+        "--global-color-green-30"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-positive-strong-default"
+        ],
+        "palette": [
+          "--global-color-green-30"
+        ]
+      }
+    },
+    "#45a243": {
+      "tokens": [
+        "--sys-text-positive-normal-default",
+        "--sys-icon-positive-normal-default",
+        "--sys-bg-positive-strong-active",
+        "--global-color-green-40"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-positive-normal-default"
+        ],
+        "icon": [
+          "--sys-icon-positive-normal-default"
+        ],
+        "bg": [
+          "--sys-bg-positive-strong-active"
+        ],
+        "palette": [
+          "--global-color-green-40"
+        ]
+      }
+    },
+    "#4cb24a": {
+      "tokens": [
+        "--sys-bg-positive-strong-default",
+        "--sys-stroke-positive-normal-default",
+        "--global-color-green-50"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-positive-strong-default"
+        ],
+        "stroke": [
+          "--sys-stroke-positive-normal-default"
+        ],
+        "palette": [
+          "--global-color-green-50"
+        ]
+      }
+    },
+    "#70c16e": {
+      "tokens": [
+        "--sys-bg-positive-normal-default",
+        "--global-color-green-60"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-positive-normal-default"
+        ],
+        "palette": [
+          "--global-color-green-60"
+        ]
+      }
+    },
+    "#87cb86": {
+      "tokens": [
+        "--global-color-green-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-green-70"
+        ]
+      }
+    },
+    "#addcac": {
+      "tokens": [
+        "--global-color-green-80"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-green-80"
+        ]
+      }
+    },
+    "#c8e7c7": {
+      "tokens": [
+        "--sys-bg-positive-strong-disabled",
+        "--global-color-green-90"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-positive-strong-disabled"
+        ],
+        "palette": [
+          "--global-color-green-90"
+        ]
+      }
+    },
+    "#dbf0da": {
+      "tokens": [
+        "--sys-bg-positive-subtle-active",
+        "--global-color-green-95"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-positive-subtle-active"
+        ],
+        "palette": [
+          "--global-color-green-95"
+        ]
+      }
+    },
+    "#edf7ed": {
+      "tokens": [
+        "--sys-bg-positive-subtle-default",
+        "--global-color-green-100"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-positive-subtle-default"
+        ],
+        "palette": [
+          "--global-color-green-100"
+        ]
+      }
+    },
+    "#39100e": {
+      "tokens": [
+        "--global-color-red-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-red-10"
+        ]
+      }
+    },
+    "#531b1a": {
+      "tokens": [
+        "--global-color-red-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-red-15"
+        ]
+      }
+    },
+    "#772928": {
+      "tokens": [
+        "--global-color-red-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-red-20"
+        ]
+      }
+    },
+    "#993534": {
+      "tokens": [
+        "--sys-text-alert-strong-default",
+        "--global-color-red-30"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-alert-strong-default"
+        ],
+        "palette": [
+          "--global-color-red-30"
+        ]
+      }
+    },
+    "#c54342": {
+      "tokens": [
+        "--sys-text-alert-normal-default",
+        "--sys-bg-alert-strong-active",
+        "--global-color-red-40"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-alert-normal-default"
+        ],
+        "bg": [
+          "--sys-bg-alert-strong-active"
+        ],
+        "palette": [
+          "--global-color-red-40"
+        ]
+      }
+    },
+    "#d84a49": {
+      "tokens": [
+        "--sys-bg-alert-strong-default",
+        "--sys-stroke-alert-normal-default",
+        "--sys-icon-alert-normal-default",
+        "--sys-text-calendar-holiday",
+        "--sys-stroke-calendar-now-indicator",
+        "--global-color-red-50"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-alert-strong-default"
+        ],
+        "stroke": [
+          "--sys-stroke-alert-normal-default",
+          "--sys-stroke-calendar-now-indicator"
+        ],
+        "icon": [
+          "--sys-icon-alert-normal-default"
+        ],
+        "text": [
+          "--sys-text-calendar-holiday"
+        ],
+        "palette": [
+          "--global-color-red-50"
+        ]
+      }
+    },
+    "#e06e6d": {
+      "tokens": [
+        "--sys-bg-alert-normal-default",
+        "--global-color-red-60"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-alert-normal-default"
+        ],
+        "palette": [
+          "--global-color-red-60"
+        ]
+      }
+    },
+    "#e58685": {
+      "tokens": [
+        "--global-color-red-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-red-70"
+        ]
+      }
+    },
+    "#edacab": {
+      "tokens": [
+        "--global-color-red-80"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-red-80"
+        ]
+      }
+    },
+    "#f3c7c7": {
+      "tokens": [
+        "--sys-bg-alert-strong-disabled",
+        "--global-color-red-90"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-alert-strong-disabled"
+        ],
+        "palette": [
+          "--global-color-red-90"
+        ]
+      }
+    },
+    "#f7d7d7": {
+      "tokens": [
+        "--sys-bg-alert-subtle-active",
+        "--global-color-red-95"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-alert-subtle-active"
+        ],
+        "palette": [
+          "--global-color-red-95"
+        ]
+      }
+    },
+    "#fbeded": {
+      "tokens": [
+        "--sys-bg-alert-subtle-default",
+        "--global-color-red-100"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-alert-subtle-default"
+        ],
+        "palette": [
+          "--global-color-red-100"
+        ]
+      }
+    },
+    "#2f1806": {
+      "tokens": [
+        "--global-color-orange-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-orange-10"
+        ]
+      }
+    },
+    "#3e2009": {
+      "tokens": [
+        "--global-color-orange-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-orange-15"
+        ]
+      }
+    },
+    "#86450c": {
+      "tokens": [
+        "--global-color-orange-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-orange-20"
+        ]
+      }
+    },
+    "#ad5910": {
+      "tokens": [
+        "--sys-text-warning-strong-default",
+        "--global-color-orange-30"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-warning-strong-default"
+        ],
+        "palette": [
+          "--global-color-orange-30"
+        ]
+      }
+    },
+    "#dd7214": {
+      "tokens": [
+        "--sys-text-warning-normal-default",
+        "--sys-icon-warning-normal-default",
+        "--sys-bg-warning-strong-active",
+        "--global-color-orange-40"
+      ],
+      "byCategory": {
+        "text": [
+          "--sys-text-warning-normal-default"
+        ],
+        "icon": [
+          "--sys-icon-warning-normal-default"
+        ],
+        "bg": [
+          "--sys-bg-warning-strong-active"
+        ],
+        "palette": [
+          "--global-color-orange-40"
+        ]
+      }
+    },
+    "#f37d16": {
+      "tokens": [
+        "--sys-bg-warning-strong-default",
+        "--sys-stroke-warning-normal-default",
+        "--global-color-orange-50"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-warning-strong-default"
+        ],
+        "stroke": [
+          "--sys-stroke-warning-normal-default"
+        ],
+        "palette": [
+          "--global-color-orange-50"
+        ]
+      }
+    },
+    "#f59745": {
+      "tokens": [
+        "--sys-bg-warning-normal-default",
+        "--global-color-orange-60"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-warning-normal-default"
+        ],
+        "palette": [
+          "--global-color-orange-60"
+        ]
+      }
+    },
+    "#f7a863": {
+      "tokens": [
+        "--global-color-orange-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-orange-70"
+        ]
+      }
+    },
+    "#f9c394": {
+      "tokens": [
+        "--global-color-orange-80"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-orange-80"
+        ]
+      }
+    },
+    "#fbd7b7": {
+      "tokens": [
+        "--global-color-orange-90"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-orange-90"
+        ]
+      }
+    },
+    "#fde5cd": {
+      "tokens": [
+        "--sys-bg-warning-subtle-active",
+        "--global-color-orange-95"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-warning-subtle-active"
+        ],
+        "palette": [
+          "--global-color-orange-95"
+        ]
+      }
+    },
+    "#fef2e8": {
+      "tokens": [
+        "--sys-bg-warning-subtle-default",
+        "--global-color-orange-100"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-warning-subtle-default"
+        ],
+        "palette": [
+          "--global-color-orange-100"
+        ]
+      }
+    },
+    "#312c12": {
+      "tokens": [
+        "--global-color-yellow-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-yellow-10"
+        ]
+      }
+    },
+    "#413a1c": {
+      "tokens": [
+        "--global-color-yellow-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-yellow-15"
+        ]
+      }
+    },
+    "#8b7528": {
+      "tokens": [
+        "--global-color-yellow-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-yellow-20"
+        ]
+      }
+    },
+    "#b49734": {
+      "tokens": [
+        "--global-color-yellow-30"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-yellow-30"
+        ]
+      }
+    },
+    "#e6c142": {
+      "tokens": [
+        "--sys-bg-highlight-strong-active",
+        "--global-color-yellow-40"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-highlight-strong-active"
+        ],
+        "palette": [
+          "--global-color-yellow-40"
+        ]
+      }
+    },
+    "#fdd449": {
+      "tokens": [
+        "--sys-bg-highlight-strong-default",
+        "--global-color-yellow-50"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-highlight-strong-default"
+        ],
+        "palette": [
+          "--global-color-yellow-50"
+        ]
+      }
+    },
+    "#fddd6d": {
+      "tokens": [
+        "--sys-bg-highlight-normal-default",
+        "--global-color-yellow-60"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-highlight-normal-default"
+        ],
+        "palette": [
+          "--global-color-yellow-60"
+        ]
+      }
+    },
+    "#fee285": {
+      "tokens": [
+        "--global-color-yellow-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-yellow-70"
+        ]
+      }
+    },
+    "#feebab": {
+      "tokens": [
+        "--global-color-yellow-80"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-yellow-80"
+        ]
+      }
+    },
+    "#fef2c7": {
+      "tokens": [
+        "--sys-bg-highlight-strong-disabled",
+        "--global-color-yellow-90"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-highlight-strong-disabled"
+        ],
+        "palette": [
+          "--global-color-yellow-90"
+        ]
+      }
+    },
+    "#fff7dc": {
+      "tokens": [
+        "--sys-bg-highlight-subtle-active",
+        "--global-color-yellow-95"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-highlight-subtle-active"
+        ],
+        "palette": [
+          "--global-color-yellow-95"
+        ]
+      }
+    },
+    "#fffbed": {
+      "tokens": [
+        "--sys-bg-highlight-subtle-default",
+        "--global-color-yellow-100"
+      ],
+      "byCategory": {
+        "bg": [
+          "--sys-bg-highlight-subtle-default"
+        ],
+        "palette": [
+          "--global-color-yellow-100"
+        ]
+      }
+    },
+    "#281e34": {
+      "tokens": [
+        "--global-color-purple-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-10"
+        ]
+      }
+    },
+    "#372a4a": {
+      "tokens": [
+        "--global-color-purple-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-15"
+        ]
+      }
+    },
+    "#483661": {
+      "tokens": [
+        "--global-color-purple-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-20"
+        ]
+      }
+    },
+    "#5c467d": {
+      "tokens": [
+        "--global-color-purple-30"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-30"
+        ]
+      }
+    },
+    "#7658a7": {
+      "tokens": [
+        "--global-color-purple-40"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-40"
+        ]
+      }
+    },
+    "#8263b0": {
+      "tokens": [
+        "--global-color-purple-50"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-50"
+        ]
+      }
+    },
+    "#9b82c0": {
+      "tokens": [
+        "--global-color-purple-60"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-60"
+        ]
+      }
+    },
+    "#ab96ca": {
+      "tokens": [
+        "--global-color-purple-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-70"
+        ]
+      }
+    },
+    "#c6b7db": {
+      "tokens": [
+        "--global-color-purple-80"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-80"
+        ]
+      }
+    },
+    "#d8cfe7": {
+      "tokens": [
+        "--global-color-purple-90"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-90"
+        ]
+      }
+    },
+    "#e6dff0": {
+      "tokens": [
+        "--global-color-purple-95"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-purple-95"
+        ]
+      }
+    },
+    "#f3eff7": {
+      "tokens": [
+        "--hr-bg-brand-subtle-default",
+        "--global-color-purple-100"
+      ],
+      "byCategory": {
+        "bg": [
+          "--hr-bg-brand-subtle-default"
+        ],
+        "palette": [
+          "--global-color-purple-100"
+        ]
+      }
+    },
+    "#313e46": {
+      "tokens": [
+        "--global-color-light_blue-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-light_blue-10"
+        ]
+      }
+    },
+    "#475968": {
+      "tokens": [
+        "--global-color-light_blue-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-light_blue-15"
+        ]
+      }
+    },
+    "#5d7588": {
+      "tokens": [
+        "--global-color-light_blue-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-light_blue-20"
+        ]
+      }
+    },
+    "#7897b0": {
+      "tokens": [
+        "--global-color-light_blue-30"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-light_blue-30"
+        ]
+      }
+    },
+    "#9ac1e2": {
+      "tokens": [
+        "--global-color-light_blue-40"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-light_blue-40"
+        ]
+      }
+    },
+    "#a9d4f8": {
+      "tokens": [
+        "--global-color-light_blue-50"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-light_blue-50"
+        ]
+      }
+    },
+    "#baddf9": {
+      "tokens": [
+        "--global-color-light_blue-60"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-light_blue-60"
+        ]
+      }
+    },
+    "#c5e2fa": {
+      "tokens": [
+        "--global-color-light_blue-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-light_blue-70"
+        ]
+      }
+    },
+    "#d7ebfc": {
+      "tokens": [
+        "--office-bg-brand-subtle-active",
+        "--global-color-light_blue-80"
+      ],
+      "byCategory": {
+        "bg": [
+          "--office-bg-brand-subtle-active"
+        ],
+        "palette": [
+          "--global-color-light_blue-80"
+        ]
+      }
+    },
+    "#e4f2fd": {
+      "tokens": [
+        "--global-color-light_blue-90"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-light_blue-90"
+        ]
+      }
+    },
+    "#ecf7fe": {
+      "tokens": [
+        "--office-bg-brand-faint-active",
+        "--global-color-light_blue-95"
+      ],
+      "byCategory": {
+        "bg": [
+          "--office-bg-brand-faint-active"
+        ],
+        "palette": [
+          "--global-color-light_blue-95"
+        ]
+      }
+    },
+    "#f6fbfe": {
+      "tokens": [
+        "--office-bg-brand-faint-default",
+        "--global-color-light_blue-100"
+      ],
+      "byCategory": {
+        "bg": [
+          "--office-bg-brand-faint-default"
+        ],
+        "palette": [
+          "--global-color-light_blue-100"
+        ]
+      }
+    },
+    "#072738": {
+      "tokens": [
+        "--global-color-sky_blue-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-sky_blue-10"
+        ]
+      }
+    },
+    "#0d3b61": {
+      "tokens": [
+        "--global-color-sky_blue-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-sky_blue-15"
+        ]
+      }
+    },
+    "#114d80": {
+      "tokens": [
+        "--global-color-sky_blue-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-sky_blue-20"
+        ]
+      }
+    },
+    "#1663a5": {
+      "tokens": [
+        "--global-color-sky_blue-30"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-sky_blue-30"
+        ]
+      }
+    },
+    "#1c7fd3": {
+      "tokens": [
+        "--office-bg-brand-strong-default",
+        "--office-text-brand-normal-default",
+        "--office-stroke-brand-normal-default",
+        "--office-icon-brand-normal-default",
+        "--global-color-sky_blue-40"
+      ],
+      "byCategory": {
+        "bg": [
+          "--office-bg-brand-strong-default"
+        ],
+        "text": [
+          "--office-text-brand-normal-default"
+        ],
+        "stroke": [
+          "--office-stroke-brand-normal-default"
+        ],
+        "icon": [
+          "--office-icon-brand-normal-default"
+        ],
+        "palette": [
+          "--global-color-sky_blue-40"
+        ]
+      }
+    },
+    "#1f8ce8": {
+      "tokens": [
+        "--global-color-sky_blue-50"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-sky_blue-50"
+        ]
+      }
+    },
+    "#4ca3ed": {
+      "tokens": [
+        "--global-color-sky_blue-60"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-sky_blue-60"
+        ]
+      }
+    },
+    "#69b2f0": {
+      "tokens": [
+        "--global-color-sky_blue-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-sky_blue-70"
+        ]
+      }
+    },
+    "#98caf4": {
+      "tokens": [
+        "--office-stroke-brand-subtle-default",
+        "--global-color-sky_blue-80"
+      ],
+      "byCategory": {
+        "stroke": [
+          "--office-stroke-brand-subtle-default"
+        ],
+        "palette": [
+          "--global-color-sky_blue-80"
+        ]
+      }
+    },
+    "#badbf8": {
+      "tokens": [
+        "--office-bg-brand-normal-active",
+        "--office-text-brand-normal-disabled",
+        "--office-icon-brand-normal-disabled",
+        "--sys-bg-informative-strong-disabled",
+        "--global-color-sky_blue-90"
+      ],
+      "byCategory": {
+        "bg": [
+          "--office-bg-brand-normal-active",
+          "--sys-bg-informative-strong-disabled"
+        ],
+        "text": [
+          "--office-text-brand-normal-disabled"
+        ],
+        "icon": [
+          "--office-icon-brand-normal-disabled"
+        ],
+        "palette": [
+          "--global-color-sky_blue-90"
+        ]
+      }
+    },
+    "#d8e9fb": {
+      "tokens": [
+        "--office-bg-brand-normal-default",
+        "--global-color-sky_blue-95"
+      ],
+      "byCategory": {
+        "bg": [
+          "--office-bg-brand-normal-default"
+        ],
+        "palette": [
+          "--global-color-sky_blue-95"
+        ]
+      }
+    },
+    "#e9f4fd": {
+      "tokens": [
+        "--global-color-sky_blue-100"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-sky_blue-100"
+        ]
+      }
+    },
+    "#0e3c3c": {
+      "tokens": [
+        "--global-color-cyan-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-10"
+        ]
+      }
+    },
+    "#146464": {
+      "tokens": [
+        "--global-color-cyan-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-15"
+        ]
+      }
+    },
+    "#1a8c8c": {
+      "tokens": [
+        "--global-color-cyan-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-20"
+        ]
+      }
+    },
+    "#22b5b5": {
+      "tokens": [
+        "--global-color-cyan-30"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-30"
+        ]
+      }
+    },
+    "#2ce8e8": {
+      "tokens": [
+        "--global-color-cyan-40"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-40"
+        ]
+      }
+    },
+    "#30ffff": {
+      "tokens": [
+        "--global-color-cyan-50"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-50"
+        ]
+      }
+    },
+    "#59ffff": {
+      "tokens": [
+        "--global-color-cyan-60"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-60"
+        ]
+      }
+    },
+    "#74ffff": {
+      "tokens": [
+        "--global-color-cyan-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-70"
+        ]
+      }
+    },
+    "#a0ffff": {
+      "tokens": [
+        "--global-color-cyan-80"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-80"
+        ]
+      }
+    },
+    "#bfffff": {
+      "tokens": [
+        "--global-color-cyan-90"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-90"
+        ]
+      }
+    },
+    "#d6ffff": {
+      "tokens": [
+        "--global-color-cyan-95"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-95"
+        ]
+      }
+    },
+    "#eaffff": {
+      "tokens": [
+        "--global-color-cyan-100"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cyan-100"
+        ]
+      }
+    },
+    "#282b16": {
+      "tokens": [
+        "--global-color-olive-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-10"
+        ]
+      }
+    },
+    "#404929": {
+      "tokens": [
+        "--global-color-olive-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-15"
+        ]
+      }
+    },
+    "#5a673b": {
+      "tokens": [
+        "--global-color-olive-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-20"
+        ]
+      }
+    },
+    "#74854d": {
+      "tokens": [
+        "--global-color-olive-30"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-30"
+        ]
+      }
+    },
+    "#95ab62": {
+      "tokens": [
+        "--global-color-olive-40"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-40"
+        ]
+      }
+    },
+    "#a4bc6c": {
+      "tokens": [
+        "--global-color-olive-50"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-50"
+        ]
+      }
+    },
+    "#b6c989": {
+      "tokens": [
+        "--global-color-olive-60"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-60"
+        ]
+      }
+    },
+    "#c2d29d": {
+      "tokens": [
+        "--global-color-olive-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-70"
+        ]
+      }
+    },
+    "#d5e0bb": {
+      "tokens": [
+        "--global-color-olive-80"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-80"
+        ]
+      }
+    },
+    "#e3ead1": {
+      "tokens": [
+        "--global-color-olive-90"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-90"
+        ]
+      }
+    },
+    "#edf1e3": {
+      "tokens": [
+        "--global-color-olive-95"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-95"
+        ]
+      }
+    },
+    "#f6f8f0": {
+      "tokens": [
+        "--global-color-olive-100"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-olive-100"
+        ]
+      }
+    },
+    "#282a2e": {
+      "tokens": [
+        "--global-color-cool_gray-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-10"
+        ]
+      }
+    },
+    "#393e43": {
+      "tokens": [
+        "--global-color-cool_gray-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-15"
+        ]
+      }
+    },
+    "#4a5158": {
+      "tokens": [
+        "--global-color-cool_gray-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-20"
+        ]
+      }
+    },
+    "#606872": {
+      "tokens": [
+        "--global-color-cool_gray-30"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-30"
+        ]
+      }
+    },
+    "#7b8692": {
+      "tokens": [
+        "--global-color-cool_gray-40"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-40"
+        ]
+      }
+    },
+    "#8793a0": {
+      "tokens": [
+        "--global-color-cool_gray-50"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-50"
+        ]
+      }
+    },
+    "#9fa9b3": {
+      "tokens": [
+        "--global-color-cool_gray-60"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-60"
+        ]
+      }
+    },
+    "#afb7bf": {
+      "tokens": [
+        "--global-color-cool_gray-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-70"
+        ]
+      }
+    },
+    "#c8cdd3": {
+      "tokens": [
+        "--global-color-cool_gray-80"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-80"
+        ]
+      }
+    },
+    "#dadee2": {
+      "tokens": [
+        "--global-color-cool_gray-90"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-90"
+        ]
+      }
+    },
+    "#e8e9ec": {
+      "tokens": [
+        "--global-color-cool_gray-95"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-95"
+        ]
+      }
+    },
+    "#f3f4f6": {
+      "tokens": [
+        "--global-color-cool_gray-100"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-cool_gray-100"
+        ]
+      }
+    },
+    "#232b37": {
+      "tokens": [
+        "--global-color-blue_gray-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue_gray-10"
+        ]
+      }
+    },
+    "#333f50": {
+      "tokens": [
+        "--global-color-blue_gray-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue_gray-15"
+        ]
+      }
+    },
+    "#435269": {
+      "tokens": [
+        "--global-color-blue_gray-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue_gray-20"
+        ]
+      }
+    },
+    "#576a87": {
+      "tokens": [
+        "--global-color-blue_gray-30"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue_gray-30"
+        ]
+      }
+    },
+    "#6f88ad": {
+      "tokens": [
+        "--global-color-blue_gray-40"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue_gray-40"
+        ]
+      }
+    },
+    "#7a95be": {
+      "tokens": [
+        "--global-color-blue_gray-50"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue_gray-50"
+        ]
+      }
+    },
+    "#95aacb": {
+      "tokens": [
+        "--global-color-blue_gray-60"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue_gray-60"
+        ]
+      }
+    },
+    "#a6b8d3": {
+      "tokens": [
+        "--global-color-blue_gray-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue_gray-70"
+        ]
+      }
+    },
+    "#c2cee1": {
+      "tokens": [
+        "--office-bg-brand-normal-disabled",
+        "--global-color-blue_gray-80"
+      ],
+      "byCategory": {
+        "bg": [
+          "--office-bg-brand-normal-disabled"
+        ],
+        "palette": [
+          "--global-color-blue_gray-80"
+        ]
+      }
+    },
+    "#d6deeb": {
+      "tokens": [
+        "--office-stroke-brand-faint-default",
+        "--office-bg-brand-subtle-disabled",
+        "--global-color-blue_gray-90"
+      ],
+      "byCategory": {
+        "stroke": [
+          "--office-stroke-brand-faint-default"
+        ],
+        "bg": [
+          "--office-bg-brand-subtle-disabled"
+        ],
+        "palette": [
+          "--global-color-blue_gray-90"
+        ]
+      }
+    },
+    "#e5e9f2": {
+      "tokens": [
+        "--global-color-blue_gray-95"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue_gray-95"
+        ]
+      }
+    },
+    "#f2f4f9": {
+      "tokens": [
+        "--global-color-blue_gray-100"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-blue_gray-100"
+        ]
+      }
+    },
+    "#20193c": {
+      "tokens": [
+        "--global-color-violet-10"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-violet-10"
+        ]
+      }
+    },
+    "#2e2456": {
+      "tokens": [
+        "--global-color-violet-15"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-violet-15"
+        ]
+      }
+    },
+    "#3c2f70": {
+      "tokens": [
+        "--global-color-violet-20"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-violet-20"
+        ]
+      }
+    },
+    "#4d3d91": {
+      "tokens": [
+        "--global-color-violet-30"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-violet-30"
+        ]
+      }
+    },
+    "#634eba": {
+      "tokens": [
+        "--hr-text-brand-strong-default",
+        "--hr-bg-brand-strong-active",
+        "--global-color-violet-40"
+      ],
+      "byCategory": {
+        "text": [
+          "--hr-text-brand-strong-default"
+        ],
+        "bg": [
+          "--hr-bg-brand-strong-active"
+        ],
+        "palette": [
+          "--global-color-violet-40"
+        ]
+      }
+    },
+    "#6d56cc": {
+      "tokens": [
+        "--hr-bg-brand-strong-default",
+        "--hr-text-brand-normal-default",
+        "--hr-stroke-brand-normal-default",
+        "--hr-icon-brand-normal-default",
+        "--global-color-violet-50"
+      ],
+      "byCategory": {
+        "bg": [
+          "--hr-bg-brand-strong-default"
+        ],
+        "text": [
+          "--hr-text-brand-normal-default"
+        ],
+        "stroke": [
+          "--hr-stroke-brand-normal-default"
+        ],
+        "icon": [
+          "--hr-icon-brand-normal-default"
+        ],
+        "palette": [
+          "--global-color-violet-50"
+        ]
+      }
+    },
+    "#8a78d6": {
+      "tokens": [
+        "--global-color-violet-60"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-violet-60"
+        ]
+      }
+    },
+    "#9d8edd": {
+      "tokens": [
+        "--global-color-violet-70"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-violet-70"
+        ]
+      }
+    },
+    "#bcb1e8": {
+      "tokens": [
+        "--global-color-violet-80"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-violet-80"
+        ]
+      }
+    },
+    "#c2beec": {
+      "tokens": [
+        "--hr-bg-brand-strong-disabled",
+        "--hr-text-brand-normal-disabled",
+        "--hr-icon-brand-normal-disabled",
+        "--global-color-violet-90"
+      ],
+      "byCategory": {
+        "bg": [
+          "--hr-bg-brand-strong-disabled"
+        ],
+        "text": [
+          "--hr-text-brand-normal-disabled"
+        ],
+        "icon": [
+          "--hr-icon-brand-normal-disabled"
+        ],
+        "palette": [
+          "--global-color-violet-90"
+        ]
+      }
+    },
+    "#e1ddf4": {
+      "tokens": [
+        "--hr-bg-brand-normal-default",
+        "--global-color-violet-95"
+      ],
+      "byCategory": {
+        "bg": [
+          "--hr-bg-brand-normal-default"
+        ],
+        "palette": [
+          "--global-color-violet-95"
+        ]
+      }
+    },
+    "#f0eefa": {
+      "tokens": [
+        "--global-color-violet-100"
+      ],
+      "byCategory": {
+        "palette": [
+          "--global-color-violet-100"
+        ]
+      }
+    }
+  },
+  "byPx": {
+    "spacing": {
+      "0": "--sys-spacing-none",
+      "2": "--sys-spacing-4xs",
+      "4": "--sys-spacing-3xs",
+      "6": "--sys-spacing-2xs",
+      "8": "--sys-spacing-xs",
+      "10": "--sys-spacing-sm",
+      "12": "--sys-spacing-md",
+      "16": "--sys-spacing-lg",
+      "20": "--sys-spacing-xl",
+      "24": "--sys-spacing-2xl",
+      "32": "--sys-spacing-3xl",
+      "40": "--sys-spacing-4xl",
+      "48": "--sys-spacing-5xl",
+      "64": "--sys-spacing-6xl"
+    },
+    "radius": {
+      "0": "--sys-radius-none",
+      "2": "--sys-radius-xs",
+      "4": "--sys-radius-sm",
+      "6": "--sys-radius-md",
+      "8": "--sys-radius-lg",
+      "12": "--sys-radius-xl",
+      "16": "--sys-radius-2xl",
+      "20": "--sys-radius-3xl",
+      "24": "--sys-radius-4xl",
+      "9999": "--sys-radius-full"
+    },
+    "borderWidth": {
+      "0": "--global-border-width-0",
+      "1": "--global-border-width-1",
+      "2": "--global-border-width-2",
+      "3": "--global-border-width-3",
+      "4": "--global-border-width-4",
+      "5": "--global-border-width-5"
+    }
+  },
+  "byTypo": {
+    "48|700|58": "--sys-typo-display-2xl-bold",
+    "40|700|48": "--sys-typo-display-xl-bold",
+    "36|600|43": "--sys-typo-display-lg-semibold",
+    "32|600|38": "--sys-typo-display-md-semibold",
+    "28|600|34": "--sys-typo-heading-xxl-semibold",
+    "24|600|29": "--sys-typo-heading-xl-semibold",
+    "20|600|24": "--sys-typo-heading-lg-semibold",
+    "18|600|25": "--sys-typo-heading-md-semibold",
+    "16|600|22": "--sys-typo-heading-sm-semibold",
+    "14|600|20": "--sys-typo-heading-xs-semibold",
+    "16|400|24": "--sys-typo-body-lg-regular",
+    "16|600|24": "--sys-typo-body-lg-semibold",
+    "14|400|21": "--sys-typo-body-md-regular",
+    "14|600|21": "--sys-typo-body-md-semibold",
+    "13|400|20": "--sys-typo-body-sm-regular",
+    "18|400|25": "--sys-typo-label-lg-regular",
+    "14|600|18": "--sys-typo-label-md-semibold",
+    "14|400|18": "--sys-typo-label-md-regular",
+    "13|600|17": "--sys-typo-label-sm-semibold",
+    "13|400|17": "--sys-typo-label-sm-regular",
+    "12|600|17": "--sys-typo-label-xs-semibold",
+    "12|500|17": "--sys-typo-label-xs-medium",
+    "12|400|18": "--sys-typo-caption-md-regular",
+    "12|500|18": "--sys-typo-caption-md-medium",
+    "11|500|17": "--sys-typo-caption-sm-medium",
+    "10|500|15": "--sys-typo-caption-xs-medium"
+  }
+}
