@@ -32,6 +32,8 @@ export interface DomMetric {
   lineHeight: string;
   letterSpacing: string;
   hasLabel: boolean;
+  /** 라벨 span의 textContent, 없으면 el.innerText (트림). icon-only 등 텍스트 없는 요소는 undefined */
+  text?: string;
   /** className의 Tailwind v4 단축 문법(`bg-(--xxx)` 등)에서 추출한 CSS 변수명. 없으면 필드 없음 */
   tokens?: DomTokens;
   /** className의 Tailwind utility(`p-xl`, `rounded-sm`, `border` 등)에서 추출한 수치 토큰 */
@@ -215,6 +217,7 @@ export async function measureAll(page: Page, qaIds: string[]): Promise<Record<st
               lineHeight: '',
               letterSpacing: '',
               hasLabel: false,
+              text: undefined,
             } satisfies DomMetric,
           ];
         }
@@ -263,6 +266,7 @@ export async function measureAll(page: Page, qaIds: string[]): Promise<Record<st
             lineHeight: tcs.lineHeight,
             letterSpacing: tcs.letterSpacing,
             hasLabel: Boolean(labelSpan),
+            text: (labelSpan?.textContent?.trim() || el.innerText?.trim()) || undefined,
             tokens: Object.keys(tokens).length > 0 ? tokens : undefined,
             numericTokens: Object.keys(numericTokens).length > 0 ? numericTokens : undefined,
             typographyToken,

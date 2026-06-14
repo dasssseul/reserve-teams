@@ -1,11 +1,12 @@
 import type { DomMetric } from './dom-measure';
+import type { NormalizedNode } from '../../scripts/fetch-figma-metadata';
 
 export interface McpNode {
   figmaId: string;
   variables: Record<string, string>;
 }
 
-export type McpDiffStatus = 'pass' | 'fail' | 'skip';
+export type McpDiffStatus = 'pass' | 'fail' | 'warn' | 'skip';
 export type McpComparisonMode = 'token' | 'value';
 
 export interface McpCandidate {
@@ -25,6 +26,10 @@ export interface McpDiffItem {
   matchedToken?: string;
   comparisonMode: McpComparisonMode;
   note?: string;
+  /** 비변수 px 비교 시 Figma 기준값 */
+  figmaValue?: string;
+  /** px 차이값 (비변수 비교 시) */
+  delta?: number;
 }
 
 // ── MCP 토큰 키 → CSS 변수명 변환 ────────────────────────────────────────────
@@ -80,6 +85,131 @@ function pickByPrefix(variables: Record<string, string>, prefix: string): McpCan
 function firstBorderRadiusPx(borderRadius: string): number {
   const first = borderRadius.trim().split(/\s+/)[0];
   return parseFloat(first) || 0;
+}
+
+// ── 비변수 px 비교 헬퍼 ───────────────────────────────────────────────────────
+
+const PX_TOLERANCE = 1;
+const LETTER_SPACING_TOLERANCE = 0.1;
+
+function parseLineHeightPx(lineHeight: string, fontSize: number | null): number | null {
+  if (!lineHeight || lineHeight === 'normal') return null;
+  const px = parseFloat(lineHeight);
+  if (!Number.isFinite(px)) return null;
+  if (lineHeight.endsWith('px')) return px;
+  if (fontSize != null) return px * fontSize;
+  return px;
+}
+
+function parseLetterSpacingPx(letterSpacing: string): number | null {
+  if (!letterSpacing || letterSpacing === 'normal') return 0;
+  const px = parseFloat(letterSpacing);
+  return Number.isFinite(px) ? px : null;
+}
+
+function compareHeight(figmaHeight: number, dom: DomMetric): McpDiffItem {
+  const diff = dom.height - figmaHeight;
+  const within = Math.abs(diff) <= PX_TOLERANCE;
+  return {
+    category: 'height',
+    status: within ? 'pass' : 'fail',
+    mcpCandidates: [],
+    figmaValue: `${figmaHeight}px`,
+    domValue: `${dom.height}px`,
+    delta: Number(diff.toFixed(3)),
+    comparisonMode: 'value',
+  };
+}
+
+function compareWidth(
+  figmaWidth: number,
+  dom: DomMetric,
+  figmaText: string | undefined,
+  domText: string | undefined
+): McpDiffItem {
+  const isIconOnly = figmaText === undefined && domText === undefined;
+
+  if (!isIconOnly) {
+    if (figmaText === undefined || domText === undefined) {
+      return {
+        category: 'width',
+        status: 'skip',
+        mcpCandidates: [],
+        figmaValue: `${figmaWidth}px`,
+        domValue: `${dom.width}px`,
+        comparisonMode: 'value',
+        note: '텍스트 정보 없음 — width 비교 생략',
+      };
+    }
+    if (figmaText !== domText) {
+      return {
+        category: 'width',
+        status: 'skip',
+        mcpCandidates: [],
+        figmaValue: `${figmaWidth}px`,
+        domValue: `${dom.width}px`,
+        comparisonMode: 'value',
+        note: `텍스트 불일치 (figma='${figmaText}' dom='${domText}') — width 비교 생략`,
+      };
+    }
+  }
+
+  const diff = dom.width - figmaWidth;
+  const within = Math.abs(diff) <= PX_TOLERANCE;
+  return {
+    category: 'width',
+    status: within ? 'pass' : 'fail',
+    mcpCandidates: [],
+    figmaValue: `${figmaWidth}px`,
+    domValue: `${dom.width}px`,
+    delta: Number(diff.toFixed(3)),
+    comparisonMode: 'value',
+  };
+}
+
+function compareLineHeight(figmaLineHeightPx: number | null, dom: DomMetric): McpDiffItem | null {
+  if (figmaLineHeightPx == null) return null;
+  const domPx = parseLineHeightPx(dom.lineHeight, dom.fontSize);
+  if (domPx == null) {
+    return {
+      category: 'lineHeight',
+      status: 'skip',
+      mcpCandidates: [],
+      figmaValue: `${figmaLineHeightPx}px`,
+      domValue: dom.lineHeight || 'normal',
+      comparisonMode: 'value',
+      note: 'DOM lineHeight 파싱 불가 (normal)',
+    };
+  }
+  const diff = domPx - figmaLineHeightPx;
+  return {
+    category: 'lineHeight',
+    status: diff === 0 ? 'pass' : 'warn',
+    mcpCandidates: [],
+    figmaValue: `${figmaLineHeightPx}px`,
+    domValue: `${domPx}px`,
+    delta: Number(diff.toFixed(3)),
+    comparisonMode: 'value',
+    note: diff !== 0 ? 'warn-only' : undefined,
+  };
+}
+
+function compareLetterSpacing(figmaLetterSpacing: number | null, dom: DomMetric): McpDiffItem | null {
+  const figmaVal = figmaLetterSpacing ?? 0;
+  const domPx = parseLetterSpacingPx(dom.letterSpacing);
+  if (domPx == null) return null;
+  const diff = domPx - figmaVal;
+  const within = Math.abs(diff) <= LETTER_SPACING_TOLERANCE;
+  return {
+    category: 'letterSpacing',
+    status: within ? 'pass' : 'warn',
+    mcpCandidates: [],
+    figmaValue: `${figmaVal}px`,
+    domValue: `${domPx}px`,
+    delta: Number(diff.toFixed(3)),
+    comparisonMode: 'value',
+    note: !within ? 'warn-only' : undefined,
+  };
 }
 
 // ── 비교 로직 ────────────────────────────────────────────────────────────────
@@ -317,7 +447,7 @@ function compareTypography(variables: Record<string, string>, dom: DomMetric): M
 
 // ── 메인 ──────────────────────────────────────────────────────────────────────
 
-export function compareMcp(mcp: McpNode, dom: DomMetric): McpDiffItem[] {
+export function compareMcp(mcp: McpNode, dom: DomMetric, figma?: NormalizedNode): McpDiffItem[] {
   if (!dom.found) {
     return [
       {
@@ -351,6 +481,17 @@ export function compareMcp(mcp: McpNode, dom: DomMetric): McpDiffItem[] {
   items.push(...compareSpacing(mcp.variables, dom));
   items.push(...compareTypography(mcp.variables, dom));
 
+  if (figma) {
+    items.push(compareHeight(figma.height, dom));
+    items.push(compareWidth(figma.width, dom, figma.text, dom.text));
+
+    const lhItem = compareLineHeight(figma.typography.lineHeightPx, dom);
+    if (lhItem) items.push(lhItem);
+
+    const lsItem = compareLetterSpacing(figma.typography.letterSpacing, dom);
+    if (lsItem) items.push(lsItem);
+  }
+
   return items;
 }
 
@@ -359,41 +500,47 @@ export function compareMcp(mcp: McpNode, dom: DomMetric): McpDiffItem[] {
 export function summarizeMcp(report: Record<string, McpDiffItem[]>): {
   pass: number;
   fail: number;
+  warn: number;
   skip: number;
   total: number;
   failingNodes: number;
 } {
   let pass = 0;
   let fail = 0;
+  let warn = 0;
   let skip = 0;
   let failingNodes = 0;
   for (const items of Object.values(report)) {
     let nodeHasFail = false;
     for (const item of items) {
       if (item.status === 'pass') pass++;
-      else if (item.status === 'fail') {
-        fail++;
-        nodeHasFail = true;
-      } else skip++;
+      else if (item.status === 'fail') { fail++; nodeHasFail = true; }
+      else if (item.status === 'warn') warn++;
+      else skip++;
     }
     if (nodeHasFail) failingNodes++;
   }
-  return { pass, fail, skip, total: pass + fail + skip, failingNodes };
+  return { pass, fail, warn, skip, total: pass + fail + warn + skip, failingNodes };
 }
 
 export function printMcpFailures(report: Record<string, McpDiffItem[]>): void {
   for (const [qaId, items] of Object.entries(report)) {
-    const fails = items.filter((i) => i.status === 'fail');
-    if (fails.length === 0) continue;
+    const issues = items.filter((i) => i.status === 'fail' || i.status === 'warn');
+    if (issues.length === 0) continue;
     console.log(`\n${qaId}`);
-    for (const item of fails) {
-      const mcpStr =
-        item.mcpCandidates.length > 0
-          ? item.mcpCandidates.map((c) => `${c.token} (${c.cssVar})`).join(', ')
-          : '(없음)';
-      const domStr = item.domToken ? `${item.domToken} [${item.domValue}]` : item.domValue;
-      console.log(`  ❌ ${item.category.padEnd(16)} [${item.comparisonMode}] dom=${domStr}`);
-      console.log(`     mcp: ${mcpStr}`);
+    for (const item of issues) {
+      const marker = item.status === 'fail' ? '❌' : '⚠️ ';
+      if (item.mcpCandidates.length > 0) {
+        const mcpStr = item.mcpCandidates.map((c) => `${c.token} (${c.cssVar})`).join(', ');
+        const domStr = item.domToken ? `${item.domToken} [${item.domValue}]` : item.domValue;
+        console.log(`  ${marker} ${item.category.padEnd(16)} [${item.comparisonMode}] dom=${domStr}`);
+        console.log(`     mcp: ${mcpStr}`);
+      } else {
+        const deltaStr = item.delta !== undefined ? ` Δ=${item.delta}` : '';
+        console.log(
+          `  ${marker} ${item.category.padEnd(16)} [${item.comparisonMode}] figma=${item.figmaValue ?? '?'} dom=${item.domValue}${deltaStr}`
+        );
+      }
       if (item.note) console.log(`     note: ${item.note}`);
     }
   }

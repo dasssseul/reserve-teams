@@ -10,10 +10,19 @@ import {
   type McpDiffItem,
   type McpNode,
 } from './utils/compare-mcp';
+import type { NormalizedNode } from '../scripts/fetch-figma-metadata';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const MCP_PATH = resolve(__dirname, 'fixtures/figma-mcp-variables.json');
+const METADATA_PATH = resolve(__dirname, 'fixtures/figma-metadata.json');
 const REPORT_PATH = resolve(__dirname, 'dom-qa-mcp-report.json');
+
+interface MetadataFile {
+  _version: number;
+  _generatedAt: string;
+  _fileKey: string;
+  data: Record<string, NormalizedNode>;
+}
 
 interface McpFile {
   _version: number;
@@ -51,6 +60,14 @@ test.describe('DOM vs Figma MCP 변수 비교', () => {
 
     const mcpFile = JSON.parse(readFileSync(MCP_PATH, 'utf8')) as McpFile;
     const qaIds = Object.keys(mcpFile.data);
+
+    let metadataData: Record<string, NormalizedNode> | null = null;
+    if (existsSync(METADATA_PATH)) {
+      const metaFile = JSON.parse(readFileSync(METADATA_PATH, 'utf8')) as MetadataFile;
+      metadataData = metaFile.data;
+    } else {
+      console.warn('[DOM-QA-MCP] figma-metadata.json 없음 — height/width/lineHeight/letterSpacing 비교 생략');
+    }
     expect(qaIds.length, 'figma-mcp-variables.json에 노드가 없음').toBeGreaterThan(0);
 
     const groups: Record<string, string[]> = {};
@@ -81,7 +98,11 @@ test.describe('DOM vs Figma MCP 변수 비교', () => {
 
     const report: Record<string, McpDiffItem[]> = {};
     for (const qaId of qaIds) {
-      report[qaId] = compareMcp(mcpFile.data[qaId], domMetrics[qaId]);
+      report[qaId] = compareMcp(
+        mcpFile.data[qaId],
+        domMetrics[qaId],
+        qaId.startsWith('modal-') ? undefined : metadataData?.[qaId],
+      );
     }
 
     writeFileSync(REPORT_PATH, JSON.stringify(report, null, 2) + '\n', 'utf8');
@@ -89,7 +110,7 @@ test.describe('DOM vs Figma MCP 변수 비교', () => {
     const stats = summarizeMcp(report);
     console.log(
       `\n[DOM-QA-MCP] 노드 ${qaIds.length}개 · pages ${Object.keys(groups).length}개 · ` +
-        `pass: ${stats.pass} · fail: ${stats.fail} · skip: ${stats.skip} · fail 노드: ${stats.failingNodes}`
+        `pass: ${stats.pass} · fail: ${stats.fail} · warn: ${stats.warn} · skip: ${stats.skip} · fail 노드: ${stats.failingNodes}`
     );
 
     printMcpFailures(report);

@@ -64,6 +64,7 @@ interface FigmaNode {
   paddingBottom?: number;
   style?: FigmaTypeStyle;
   children?: FigmaNode[];
+  characters?: string; // TEXT 노드의 텍스트 내용
 }
 
 // ── 정규화 타입 (캐시에 저장) ─────────────────────────────────────────────────
@@ -103,6 +104,8 @@ export interface NormalizedNode {
   hasPaddingMeta: boolean;
   /** Figma boundVariables → CSS 변수명 (--office-bg-brand-strong-default 형태). 매칭 안 되면 필드 없음 */
   tokens?: NormalizedTokens;
+  /** 최상위 TEXT 자식 노드의 characters. 텍스트 없는 컴포넌트(icon-only 등)는 undefined */
+  text?: string;
 }
 
 // ── 정규화 로직 (계획서 §1, §2, §4) ───────────────────────────────────────────
@@ -173,6 +176,11 @@ function extractTypography(node: FigmaNode): NormalizedNode['typography'] {
     lineHeightPx: style?.lineHeightPx ?? null,
     letterSpacing: style?.letterSpacing ?? null,
   };
+}
+
+function extractText(node: FigmaNode): string | undefined {
+  const textNode = findFirst(node, (n) => n.type === 'TEXT' && Boolean(n.characters));
+  return textNode?.characters ?? undefined;
 }
 
 function collectVariableIds(node: FigmaNode, into: Set<string>): void {
@@ -247,6 +255,7 @@ function normalizeNode(
     typography: extractTypography(node),
     hasPaddingMeta,
     tokens: extractTokens(node, varNames),
+    text: extractText(node),
   };
 }
 
