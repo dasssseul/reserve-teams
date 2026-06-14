@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "fetch:figma": "tsx scripts/fetch-figma-metadata.ts",
+    "generate:qa-map": "tsx scripts/generate-qa-map.ts",
     "build:token-index": "tsx scripts/build-token-index.ts",
     "test:dom-qa": "playwright test tests/dom-qa.spec.ts",
     "test:dom-qa-mcp": "playwright test tests/dom-qa-mcp.spec.ts"
