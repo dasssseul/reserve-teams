@@ -1,1 +1,23 @@
+# Dependencies
 node_modules/
+
+# Build output
+dist/
+
+# Auto-generated (pnpm build:tokens)
+src/styles/generated/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Environment variables (FIGMA_TOKEN 등)
+.env
+.env.*
+!.env.example
+
+# Playwright
+playwright-report/
+test-results/
+
+# OS
+.DS_Store

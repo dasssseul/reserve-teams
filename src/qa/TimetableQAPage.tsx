@@ -7,7 +7,6 @@ import TimeSlotCell from '../components/Timetable/TimeSlotCell';
 import DateSlotCell from '../components/Timetable/DateSlotCell';
 import ResourceHeader from '../components/Timetable/ResourceHeader';
 import ResourcePhoto from '../components/Timetable/ResourcePhoto';
-import ResourceColumn from '../components/Timetable/ResourceColumn';
 import AxisCorner from '../components/Timetable/AxisCorner';
 import NowIndicator from '../components/Timetable/NowIndicator';
 import SelectionBox from '../components/Timetable/SelectionBox';
@@ -30,15 +29,6 @@ function generateTimeAxisCells(startHour: number, endHour: number) {
     const hh = String(h).padStart(2, '0');
     cells.push({ label: `${hh}:00`, format: 'Hour' });
     cells.push({ label: `${hh}:30`, format: 'HalfHour' });
-  }
-  return cells;
-}
-
-function generateTimeSlotCells(startHour: number, endHour: number) {
-  const cells: { format: 'Hour' | 'HalfHour' }[] = [];
-  for (let h = startHour; h <= endHour; h++) {
-    cells.push({ format: 'Hour' });
-    cells.push({ format: 'HalfHour' });
   }
   return cells;
 }
@@ -95,7 +85,6 @@ const subTitle: React.CSSProperties = {
 
 export default function TimetableQAPage() {
   const timeAxisCells = generateTimeAxisCells(0, 23);
-  const timeSlotCells = generateTimeSlotCells(0, 23);
 
   // 날짜축 — 5월 1~31일
   const dateCells: { label: string; dayType: 'Weekday' | 'Saturday' | 'Holiday' }[] = [];
